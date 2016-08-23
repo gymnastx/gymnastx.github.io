@@ -1,0 +1,100 @@
+<footer>
+
+  <div class="wrapper">
+    <div class="footer-content">
+      <h4>Link utili</h4>
+      <ul>
+      	<li><a href="{{ '/assets/docs/scheda_iscrizione_gymnastx.pdf' | prepend: site.baseurl }}">Modulo iscrizione</a></li>
+      	<li><a href="{{ '/assets/docs/richiesta_certificato_medico_gymnastx.pdf' | prepend: site.baseurl }}">Richiesta visita medica</a></li>
+      	<li><a href="{{ '/contatti/#orari-segreteria' | prepend: site.baseurl }}">Orari segreteria</a></li>
+      	<li><a href="http://www.teamartist.org/non_logged/accounts?society_id=436" target="_blank">Team Artist</a></li>
+      	<li><a href="{{ '/iscrizioni/#ricevuta-fiscale' | prepend: site.baseurl }}">Ricevuta fiscale</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-content">
+    </div>
+
+    <div class="footer-content">
+      <h4>Contatti rapidi</h4>
+      <ul>
+      	<li>{% include mail.html %}</li>
+      	<li>{% include telephone.html %}</li>
+      </ul>
+    </div>
+
+
+  </div> <!--end footer-content-->
+
+  <div class="wrapper">
+
+    <div class="social">
+      <a class="social-button" id="fb" href="https://it-it.facebook.com/gymnastx.it" target="_blank">
+        <i class="fa fa-facebook fa-2x"></i>
+      </a>
+      <a class="social-button" id="mail" href="mailto:info@gymnastx.it">
+        <i class="fa fa-envelope-o fa-2x"></i>
+      </a>
+      <a class="social-button" id="phone" href="callto:+393400999602">
+        <i class="fa fa-phone fa-2x"></i>
+      </a>
+    </div> <!--end social-->
+
+    <p id='cookie'>
+      <a href="{{ '/termini-servizio/' | prepend: site.baseurl }}">
+        Informativa privacy
+      </a>&nbsp
+      <a href="{{ '/cookiepolicy/' | prepend: site.baseurl }}">
+        Cookie policy
+      </a>
+    </p>
+
+  </div> <!--end wrapper-->
+
+</footer>
+
+<script src="{{ '/assets/jquery/jquery.min.js' | prepend: site.baseurl }}"></script>
+<!--cookie banner-->
+<script type="text/javascript" src="{{ "/assets/cookie-law/it_cookie_law.js" | prepend: site.baseurl }}"></script>
+<!--end cookie banner-->
+<script src="{{ '/assets/swiper/js/swiper.jquery.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/parsley/parsley.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/parsley/i18n/it.js' | prepend: site.baseurl }}"></script>
+<script type="application/javascript" src="{{ '/assets/fastclick/fastclick.js' | prepend: site.baseurl }}"></script>
+
+<script>
+window.addEventListener('load', function() {
+    new FastClick(document.body);
+}, false);
+$(document).ready(function() {
+  $('#menu-button').click(function() {
+      $('body').addClass('noscroll');
+      $('#fullscreen-menu').addClass('open');
+  });
+  $('#close-menu-button').click(function() {
+      $('body').removeClass('noscroll');
+      $('#fullscreen-menu').removeClass('open');
+  });
+  var homeSwiper = new Swiper('#home-slider', {
+      autoplay: 3500,
+      autoplayDisableOnInteraction: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      loop: true
+    });
+  var corsiSwiper = new Swiper('#corsi-slider', {
+      effect: 'coverflow',
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      coverflow: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows : false
+      }
+    });
+});
+</script>

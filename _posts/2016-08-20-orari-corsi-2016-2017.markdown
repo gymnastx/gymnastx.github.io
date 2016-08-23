@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Il 12 settembre si ricomincia!!! Pubblicati gli orari 2016/2017"
+date:   2016-08-20 17:12:00
+categories: corsi
+---
+Sono disponibili gli orari dei corsi relativi all'a.s. 2016/2017. Controlla le pagine dei corsi che ti interessano e contattaci per riservare subito il posto.
+
+- [Ginnastica Ritmica](/assets/docs/orari_contributi_ritmica.pdf)
+- [Ginnastica Ritmica gruppi agonistici](/assets/docs/orari_contributi_ritmica_agonistica.pdf)
+- [Ginnastica Artistica Femminile Reggio](/assets/docs/orari_contributi_artistica_femminile_cervi.pdf)
+- [Ginnastica Artistica Femminile Rivalta](/assets/docs/orari_contributi_artistica_femminile_ciechi.pdf)
+- [Ginnastica Artistica Maschile](/assets/docs/orari_contributi_artistica_maschile.pdf)
+- [Ginnastica Acrobatica](/assets/docs/orari_contributi_acrobatica.pdf)
+- [Ginnastica Acrobatica adulti](/assets/docs/orari_contributi_acrobatica_adulti.pdf)
+- [Tessuti e cerchio aereo adulti](/assets/docs/orari_contributi_tessuti_adulti.pdf)
+- [Tessuti e cerchio aereo bambini e ragazzi](/assets/docs/orari_contributi_tessuti_junior.pdf)
+- [Baby Gym](/assets/docs/orari_contributi_baby_gym.pdf)
+
+Per la procedura di iscrizione clicca [qui](/iscrizioni/), ti invitiamo a contattarci comunque al {% include telephone.html %}.
+

@@ -1,0 +1,51 @@
+<header id="menu" role="banner">
+
+  <div class="wrapper">
+
+    <a id="logo" href="/">
+      <img src="{{ '/assets/img/logo.png' | prepend: site.baseurl }}" alt="Gymnastx a.s.d.">
+    </a>
+
+    <a id="menu-button" href="javascript:void(0)">
+      <i class="fa fa-bars fa-2x"></i>
+    </a>
+
+
+  </div> <!--end wrapper-->
+</header>
+
+<div id="fullscreen-menu">
+
+  <div class="wrapper">
+
+    <a id="close-menu-button" href="javascript:void(0)">
+      <i class="fa fa-times fa-2x"></i>
+    </a>
+
+  </div> <!--end wrapper-->
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+      <li><a href="{{ '/chi-siamo/' | prepend: site.baseurl }}">Chi Siamo</a></li>
+      <li><a href="{{ '/contatti/' | prepend: site.baseurl }}">Contatti</a></li>
+      <li><a href="{{ '/news/' | prepend: site.baseurl }}">News</a></li>
+      <li><a href="{{ '/documenti-utili/' | prepend: site.baseurl }}">Documenti utili</a></li>
+      <li><a href="{{ '/iscrizioni/' | prepend: site.baseurl }}">Iscrizioni</a></li>
+      <li class="more"><a href="/corsi">Corsi</a>
+        <ul>
+          <li><a href="{{ '/corsi/ritmica/' | prepend: site.baseurl }}">Ginnastica Ritmica</a></li>
+          <li><a href="{{ '/corsi/artistica-femminile/' | prepend: site.baseurl }}">Ginnastica Artistica Femminile</a></li>
+          <li><a href="{{ '/corsi/artistica-maschile/' | prepend: site.baseurl }}">Ginnastica Artistica Maschile</a></li>
+          <li><a href="{{ '/corsi/acrobatica/' | prepend: site.baseurl }}">Ginnastica Acrobatica</a></li>
+          <li><a href="{{ '/corsi/baby/' | prepend: site.baseurl }}">Baby Gym</a></li>
+          <li><a href="{{ '/corsi/tessuti-cerchio-aereo/' | prepend: site.baseurl }}">Tessuti e cerchio aereo</a></li>
+          <!--<li><a href="{{ '/corsi/ginnastica-adulti/' | prepend: site.baseurl }}">Ginnastica Adulti</a></li>-->
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+</div> <!--end full screen menu-->
+
+<div id="menu-push"></div>

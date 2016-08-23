@@ -1,0 +1,161 @@
+/**
+ * Default variables
+ */
+$medium:              43.75rem !default;
+$large:               56.25rem !default;
+
+$base-font-family:    $helvetica !default;
+$base-font-size:      100% !default;
+$base-font-weight:    300 !default;
+
+$heading-font-family: $helvetica !default;
+$heading-font-weight: 700 !default;
+
+$content-width:       52rem !default;
+
+$body-text-color:     #111 !default;
+$body-bg-color:       #fdfdfd !default;
+$link-color:          #2a7ae2 !default;
+
+
+/**
+ * Typography
+ */
+html {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.25em;
+    -webkit-text-size-adjust: 100%;
+
+    @media (min-width: $medium) {
+        line-height: 1.375em;
+    }
+}
+
+a {
+    font-weight: $base-font-weight;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.25em;
+
+    @media (min-width: $medium) {
+        font-size: 2.5em;
+        line-height: 1.125em;
+    }
+
+    @media (min-width: $large) {
+        /*font-size: 3em;*/
+        line-height: 1.05em;
+    }
+}
+
+h2 {
+    font-size: 1.625em;
+    line-height: 1.15384615em;
+
+    @media (min-width: $medium) {
+        font-size: 2em;
+        line-height: 1.25em;
+    }
+
+    @media (min-width: $large) {
+        font-size: 2.25em;
+        line-height: 1.25em;
+    }
+}
+
+h3 {
+    font-size: 1.375em;
+    line-height: 1.13636364em;
+
+    @media (min-width: $medium) {
+        font-size: 1.5em;
+        line-height: 1.25em;
+    }
+
+    @media (min-width: $large) {
+        font-size: 1.5em;
+        line-height: 1.25em;
+    }
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: 1.11111111em;
+
+    @media (min-width: $medium) {
+        line-height: 1.22222222em;
+    }
+}
+
+blockquote {
+    font-size: 1.25em;
+    line-height: 1.25;
+
+    @media (min-width: $medium) {
+        font-size: 1.5em;
+        line-height: 1.45833333em;
+    }
+}
+
+
+/**
+ * Layout
+ */
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: $content-width;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    // clearfix
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * Colors
+ */
+body {
+    color: $body-text-color;
+    background-color: $body-bg-color;
+}
+
+a {
+    color: $link-color;
+
+    &:visited {
+        color: darken($link-color, 15%);
+    }
+
+    &:hover {
+        color: $body-text-color;
+    }
+}

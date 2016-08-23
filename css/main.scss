@@ -1,0 +1,811 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Bitter:400|Raleway);
+
+/*
+ * Media
+ */
+$medium: 43.75em;
+/*$large : 55rem;*/
+$large : 50rem;
+
+/*
+ * Typography
+ */
+$base-font-family:    "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
+$base-font-size:      125%;
+$base-font-weight:    300;
+$heading-font-family: "Bitter", "Helvetica Neue", "Helvetica", sans-serif;
+$heading-font-weight: 400;
+
+/*
+ * Layout
+ */
+/*$content-width:   55rem;*/
+$content-width:   $large;
+$spacing-unit:    1.618rem;
+
+/*
+ * Colors
+ */
+/*$color-1: #3498db;*/
+$color-1: #0066ff;
+$color-2: lighten($color-1, 90%);
+$color-3: #111;
+$body-text-color:       $color-3;
+$body-bg-color:         #fdfdfd;
+$link-color:            #2a7ae2;
+
+/*
+ * Menu variables
+ */
+$menu-color:        $color-2;
+$menu-color-hover:  $color-2;
+$menu-bg-color:     $color-1;
+$menu-height:       60px;
+
+
+@import "base";
+@import "menu";
+
+strong,
+span.bold {
+    font-weight: bold;
+}
+span.underline {
+    text-decoration: underline;
+}
+
+/*
+ * Home slider
+ */
+div#home-slider {
+    width: 100%;
+    height: 60vh;
+}
+.swiper-slide {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+div#wellcome-slide {
+    /*background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url("/assets/img/gymnastx_mosaic.jpg");*/
+    background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 2.5) ), url("/assets/img/palestra_cervi_large.jpg");
+    text-align: center;
+    >div {
+        width: 100%;
+        height: 100%;
+        display: table;
+        > div {
+            color: $color-1;
+            width: 100%;
+            height: 100%;
+            display: table-cell;
+            vertical-align: bottom;
+            h1 {
+                font-size: 2em;
+                line-height: 1.25em;
+
+                @media (min-width: $medium) {
+                    font-size: 2.5em;
+                    line-height: 1.125em;
+                }
+
+                @media (min-width: $large) {
+                    font-size: 3em;
+                    line-height: 1.05em;
+                }
+            }
+            p {
+                font-family: $heading-font-family;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+div#latest-news-slide {
+    background-color: #CDDDDD;
+    text-align: center;
+    .entry-content {
+        display: none;
+    }
+    @media (min-width: $medium) {
+        text-align: left;
+        .entry-content {
+            display: block;
+        }
+    }
+}
+
+div#facebook-slide {
+    background-color: #3A5795;
+        padding: 1rem;
+    .wrapper>div {
+        float: none;
+        width: 100%;
+        color: $color-2;
+        @media (min-width: $medium) {
+            float: left;
+            width: 50%;
+        }
+    }
+    div.fb-page {
+        max-width: 500px;
+    }
+    div.fb-slider-cta {
+        display: none;
+        padding: 0 1rem;
+        a {
+            display: inline-block;
+            padding: 10px 30px;
+            color: $color-2;
+            border: solid 2px $color-2;
+            text-decoration: none;
+            transition: background-color .3s,
+                        color .3s;
+            &:hover {
+                background-color: $body-bg-color;
+                color: #3A5795;
+            }
+        }
+        @media (min-width: $medium) {
+            display: block;
+        }
+    }
+}
+
+/*
+ * Mission
+ */
+section#mission {
+    text-align: center;
+    margin-bottom: 2rem;
+    p.description {
+        font-size: 1.375em;
+        line-height: 1.13636364em;
+
+        @media (min-width: $medium) {
+            font-size: 1.5em;
+            line-height: 1.25em;
+        }
+
+        @media (min-width: $large) {
+            font-size: 1.5em;
+            line-height: 1.25em;
+        }
+    }
+
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 20px 10px 15px 0;
+    color: $color-1;
+    background-color: $body-bg-color;
+    border: solid 2px $color-1;
+    text-decoration: none;
+    transition: background-color .3s,
+                color .3s;
+    &:hover {
+        color: $body-bg-color;
+        background-color: $color-1;
+    }
+}
+
+/*
+ * Slider corsi
+ */
+section#corsi {
+    background-color: #f7f7f7;
+    padding: 2rem 0 2rem 0;
+}
+div#corsi-slider {
+    width: 100%;
+    /*height: 60vh;*/
+    .swiper-slide {
+        width: 80%;
+        padding: 0;
+        border: 0;
+        @media (min-width: $medium) {
+            width: 70%;
+        }
+        @media (min-width: $large) {
+            width: 60%;
+            max-width: 600px;
+        }
+    }
+    a {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        h3 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin: 0;
+            padding: 10px 10px;
+            width: 100%;
+            text-align: center;
+            /*background-color: lighten($color-1, 35%);*/
+            background-color: #f7f7f7;
+            color: darken($color-1, 20%);
+            font-size: 1.1em;
+            line-height: 1.11111111em;
+            font-family: $base-font-family;
+            transition: background-color .3s,
+                        color .3s;
+
+            @media (min-width: $medium) {
+                font-size: 1.45em;
+                line-height: 1.22222222em;
+            }
+        }
+
+        &:hover h3 {
+            background-color: $color-1;
+            color: $color-2;
+        }
+    }
+}
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+    @media (min-width: $medium) {
+        display: block;
+    }
+}
+
+/*
+ * Pagina Corsi
+ */
+div.corsi {
+    div.scheda-corso {
+        margin-bottom: 2rem;
+        width: 100%;
+        background: #f7f7f7;
+        div.scheda-corso-img {
+            width: 100%;
+            height: 200px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+                    background-size: cover;
+        }
+        div.scheda-corso-desc {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #f7f7f7;
+            opacity: 0.7;
+            text-align: center;
+            h3 {
+                font-size: 1.2rem;
+                margin: 0;
+            }
+            p {
+                display: none;
+            }
+        }
+
+        @media (min-width: $medium) {
+            &:nth-child(odd) {
+                a>div {
+                    float: left;
+                }
+                div.scheda-corso-desc {
+                    text-align: left;
+                }
+            }
+            &:nth-child(even) {
+                a>div {
+                    float: right;
+                }
+                div.scheda-corso-desc {
+                    text-align: right;
+                }
+            }
+            a {
+                width: 100%;
+                height: 100%;
+            }
+            div.scheda-corso-img {
+                width: 40%;
+                min-height: 300px;
+            }
+            div.scheda-corso-desc {
+                padding: 1rem;
+                width: 60%;
+                h3 {
+                    margin-top: 0;
+                    font-size: 1.5rem;
+                }
+                p {
+                    display: block;
+                }
+            }
+            &:after {
+                content: "";
+                display: block;
+                visibility: hidden;
+                clear: both;
+            }
+        }
+    }
+}
+
+/*
+ * Ultime notizie
+ */
+section#news {
+    margin-bottom: 2rem;
+    ul.post-list {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        h3 {
+            color: $color-1;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        li {
+            margin-bottom: 1rem;
+            &:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+        }
+    }
+    
+    @media (min-width: $medium) {
+        img {
+            float: left;
+            margin-right: 1rem;
+        }
+    }
+}
+
+/*
+ * Facebook call to action
+ */
+section#facebook-cta {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background: $color-1;
+    text-align: center;
+    color: $color-2;
+    a {
+        display: inline-block;
+        padding: 10px 30px;
+        color: $color-2;
+        border: solid 2px $color-2;
+        text-decoration: none;
+        transition: background-color .3s,
+                    color .3s;
+        &:hover {
+            background-color: $body-bg-color;
+            color: $color-1;
+        }
+    }
+}
+
+/*
+ * Footer
+ */
+footer {
+    background-color: darken($color-1, 10%);
+    color: $color-2;
+    padding: 2rem 0;
+    border-top: solid 6px $color-1;
+    font-size: 16px;
+    text-align: center;
+    a, a:visited, a:hover {
+      color: $color-2;
+      font-size: 16px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    @media (min-width: $medium) {
+        text-align: left;
+        div.footer-content {
+            float: left;
+            width: 30%;
+            min-height: 1px;
+            margin-right: 5%;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        div.footer-content:last-child {
+            text-align: right;
+        }
+    }
+    .social {
+        text-align: center;
+        border-top: 2px solid lighten($color-1, 10%);
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+    }
+}
+
+/*
+ * Social buttons
+ */
+a.social-button,
+a.social-button:hover,
+a.social-button:visited {
+    display: inline-block;
+    i {
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        line-height: 58px;
+        border: 2px solid lighten($color-1, 30%);
+        border-radius: 100%;
+    }
+    margin: 5px;
+    text-decoration: none;
+    color: lighten($color-1, 30%);
+    transition: 1s;
+}
+@media (min-width: $large) {
+    a.social-button:hover {
+        color: lighten($color-1, 90%);
+    }
+}
+
+/*
+ * Foto cover
+ */
+div.cover-foto {
+    width: 100%;
+    height: 60vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+
+/*
+ * Mappa
+ */
+div#mappa {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+/*
+ * Documenti utili
+ */
+section#documenti-utili {
+    a, a:hover, a:visited {
+        display: block;
+        box-sizing: content-box;
+        margin: 20px auto;
+        width: 100%;
+        min-height: 4rem;
+        line-height: 4rem;
+        border: 2px solid $color-1;
+        text-decoration: none;
+        color: $color-1;
+        &:last-child {
+            margin-bottom: 2rem;
+        }
+        &:after {
+            content: "";
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+    }
+    @media (min-width: $large) {
+        a:hover i {
+            background-color: $color-1;
+            color: $body-bg-color;
+        }
+    }
+    i {
+        display: none;
+        float: left;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        background-color: $body-bg-color;
+        color: $color-1;
+        transition: background-color .3s,
+                    color .3s;
+        @media (min-width: 420px) {
+            display: block;
+        }
+    }
+    span {
+        display: block;
+        min-height: 100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 1rem;
+        @media (min-width: 420px) {
+            float: left;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-left: 2px solid $color-1;
+            font-size: 1.5rem;
+        }
+        @media (min-width: $medium) {
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+/*
+ * Contatti
+ */
+section#contatti-content {
+    padding-bottom: 2rem;
+    div#info-contatti,
+    div#form-contatti {
+        display: block;
+        width: 100%;
+    }
+
+    @media (min-width: $medium) {
+        padding-top: 2rem;
+        div#info-contatti,
+        div#form-contatti {
+            h1,h2,h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            >p {
+                margin-top: 10px;
+            }
+            float: left;
+            width: 50%;
+        }
+    }
+}
+
+/*
+ * Contact form
+ */
+input#name,
+input#email,
+textarea {
+    border: 1px solid lighten($color-1, 20%);
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    font-size: 1rem;
+    color: $body-text-color;
+}
+input#name,
+input#email {
+    line-height: 1.5rem;
+    width: 15rem;
+}
+label {
+    margin-top: 0.8rem;
+}
+input#submit {
+    transition: background 0.5s;
+    border: 0;
+    color: $color-2;
+    background: $color-1;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    &:hover {
+        background: darken($color-1, 10%);
+    }
+}
+textarea#message {
+    width: 100%;
+    height: 10rem;
+}
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+/*
+ * Orari e tariffe button
+ */
+section.orari-tariffe {
+    text-align: center;
+}
+a.pdf-corso-button,
+a.pdf-corso-button:visited {
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    margin: 2rem auto;
+    padding: 20px 20px;
+    background-color: $color-1;
+    color: $color-2;
+    transition: background-color .3s;
+    border-radius: 3px;
+    /*border-bottom: 4px solid $color-3;*/
+
+    h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media (min-width: $large) {
+        &:hover {
+            background-color: darken($color-1, 10%);
+        }
+    }
+}
+
+/*
+ * Alert corsi
+*/
+section.alert {
+    margin: 2rem auto;
+    p {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+/*
+ * Posts
+ */
+div.post {
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*
+ * Cookie
+ */
+#cookie,
+#cookie a{
+ text-align: center;
+ color: lighten($color-1, 20%);
+ font-size: 0.7rem;
+}
+
+/*
+ * Iscrizioni
+ */
+div.iscrizioni {
+    code {
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+    ul.istruzioni {
+        counter-reset: my-badass-counter;
+        list-style: none;
+        margin: 0.5rem auto 2rem auto;
+        padding: 0;
+        > li {
+            position: relative;
+            margin: 2rem auto 0.5rem auto;
+            padding: 0;
+            &:before {
+                content: counter(my-badass-counter);
+                counter-increment: my-badass-counter;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+        }
+        @media (min-width: $medium) {
+            padding-left: 0.5rem;
+            > li {
+                margin: 1.5rem;
+                padding: 4px 0 10px 1.5rem;
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+    div.coordinate {
+        margin: 0.8rem 0 0.8rem 0.8rem;
+    }
+}
+
+/*
+ * Partners logo
+ */
+section.partners {
+    display: none;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+
+    a, a:visited, a:hover {
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+        &:last-child {
+            margin-right: 0;
+        }
+        img {
+            max-height: 80px;
+        }
+    }
+
+    @media (min-width: $medium) {
+        display: block;
+    }
+}
+
+/*
+ * Anchors
+ */
+#stretch-tone,
+#orari-segreteria,
+.anchor {
+    &:before {
+        content: "";
+        display: block;
+        height: $menu-height;
+        margin-top: -$menu-height;
+    }
+}

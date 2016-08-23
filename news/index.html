@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <section id="news">
+    <h1>Ultime notizie</h1>
+
+    <ul class="post-list">
+      {% for post in site.posts limit:3 %}
+        <li>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          {{ post.image }}
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </section> <!--end news-->
+</div> <!--end wrapper-->
+
+{% include facebook.html %}
+
+<div class="wrapper">
+  <section id="news">
+    <ul class="post-list">
+      {% for post in site.posts offset:3 %}
+        <li>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          {{ post.image }}
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </section> <!--end news-->
+</div> <!--end wrapper-->
