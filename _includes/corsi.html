@@ -1,66 +1,16 @@
-<section id="corsi">
-
-  <!--<div class="wrapper">-->
-    <!--<h2>I nostri corsi</h2>-->
-  <!--</div>-->
-
-  <div id="corsi-slider" class="swiper-container">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-        <a href="/corsi/ritmica">
-          <img src="/assets/img/ritmica_400.jpg" alt="Ginnastica ritmica">
-          <h3>Ginnastica Ritmica</h3>
+{% for corso in site.data.corsi %}
+      <div class="scheda-corso">
+        <a href="{{ corso.link }}">
+          <div class="scheda-corso-img" style="background-image:url({{ corso.img }})"></div>
+          <div class="scheda-corso-text">
+            <h3>
+             <span> {{ corso.nome }} </span>
+            </h3>
+            <p class="descrizione-corso">
+              {{ corso.descrizione }}
+            </p>
+            <p class="scheda-corso-info-button"> <span> Info corso >> </span> </p>
+          </div>
         </a>
       </div>
-
-
-      <div class="swiper-slide">
-        <a href="/corsi/artistica-femminile">
-          <img src="/assets/img/artistica_femminile_small.jpg" alt="Ginnastica Artistica femminile">
-          <h3>Ginnastica Artistica Femminile</h3>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="/corsi/artistica-maschile">
-          <img src="/assets/img/artistica_maschile_small.jpg" alt="Ginnastica Artistica maschile">
-          <h3>Ginnastica Artistica Maschile</h3>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="/corsi/acrobatica">
-          <img src="/assets/img/acrobatica_small.jpg" alt="Ginnastica Acrobatica">
-          <h3>Ginnastica Acrobatica</h3>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="/corsi/baby">
-          <img src="/assets/img/baby_small.jpg" alt="Baby Gym">
-          <h3>Baby Gym</h3>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="/corsi/tessuti-cerchio-aereo">
-          <img src="/assets/img/tessuti_small.jpg" alt="Tessuti e cerchio aereo">
-          <h3>Tessuti e cerchio aereo</h3>
-        </a>
-      </div>
-
-      <!--<div class="swiper-slide">-->
-        <!--<a href="/corsi/ginnastica-adulti">-->
-          <!--<img src="/assets/img/adulti_small.jpg" alt="Ginnastica adulti">-->
-          <!--<h3>Ginnastica Adulti</h3>-->
-        <!--</a>-->
-      <!--</div>-->
-
-    </div> <!--end swiper wrapper-->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-
-  </div> <!--end corsi slider-->
-
-</section> <!--end corsi-->
+{% endfor %}

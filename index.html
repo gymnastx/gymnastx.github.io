@@ -15,53 +15,17 @@ layout: default
 }(document, 'script', 'facebook-jssdk'));</script>
 <!--end facebook-->
 
-  <div id="home-slider" class="swiper-container">
-    <div class="swiper-wrapper">
-
-      <div id="wellcome-slide" class="swiper-slide">
-        <div>
-          <div>
-            <h1>Gymnastx a.s.d.</h1>
-            <p>
-              Ginnastica ritmica, artistica, acrobatica, tessuti e cerchio aereo a Reggio Emilia
-            </p>
-          </div>
-        </div>
-      </div>
-
-<!-- 
-      <div id="latest-news-slide" class="swiper-slide">
-        <div class="wrapper">
-          <div class="latest-news">
-            {% assign post = site.posts.first %}
-            <h2 class="entry-title">
-                <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <div class="entry-content">{{ post.excerpt }}</div>
-          </div>
-        </div>
-      </div>
--->
-
-      <div id="facebook-slide" class="swiper-slide">
-
-        <div class="wrapper">
-
-          <div class="fb-page" data-href="https://www.facebook.com/gymnastx.it?fref=nf" data-width="500" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/gymnastx.it?fref=nf"><a href="https://www.facebook.com/gymnastx.it?fref=nf">GYMNASTX</a></blockquote></div></div>
-          <div class="fb-slider-cta">
-            <h2>Seguici su facebook per restare sempre aggiornato</h2>
-            <a href="https://it-it.facebook.com/gymnastx.it" target="_blank">Vai a facebook</a>
-          </div>
-
-        </div> <!--end wrapper-->
-
-      </div> <!--end facebook-slide-->
-
-    </div> <!--end swiper wrapper-->
-
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-
+  <div id="home-slider">
+   <div>
+     <h1>
+       <span>Gymnastx a.s.d.</span>
+     </h1>
+     <p>
+       <span>
+         Ginnastica ritmica, artistica, acrobatica, tessuti e cerchio aereo a Reggio Emilia
+       </span>
+     </p>
+   </div>
   </div> <!--end home-slider-->
 
   <div class="wrapper">
@@ -73,37 +37,27 @@ layout: default
       <p>
         La ginnastica è un'attività fisica che coinvolge e dà un'impronta particolare a molti altri aspetti della vita delle persone tra cui il rispetto delle regole, la puntualità, la dedizione, la volontà, il superamento delle proprie difficoltà e il saper lavorare in gruppo.
       </p>
-      <p>
-        <a class="button" href="{{ '/chi-siamo/' | prepend: site.baseurl }}">Chi Siamo</a>
-        <a class="button" href="{{ '/contatti/' | prepend: site.baseurl }}">Contatti</a>
-        <a class="button" href="{{ '/corsi/' | prepend: site.baseurl }}">Corsi</a>
-        <a class="button" href="{{ '/documenti-utili/' | prepend: site.baseurl }}">Documenti Utili</a>
-        <a class="button" href="{{ '/iscrizioni/' | prepend: site.baseurl }}">Iscrizioni</a>
-      </p>
-      <p>Proponiamo diverse discipline per tutte le età, controlla il dettaglio del corso che ti interessa per informazioni e orari.</p>
     </section>
   </div> <!--end wrapper-->
 
-  {% include corsi.html%}
+  <section id="corsi">
+    <div id="corsi-grid" class="wrapper">
 
-  <div class="wrapper">
-    <section id="news">
-  
-      <ul class="post-list">
-        {% for post in site.posts limit:3 %}
-          <li>
-            <h3>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-              {{ post.image }}
-              {{ post.excerpt }}
-          </li>
-        {% endfor %}
-      </ul>
-    </section> <!--end news-->
-  </div> <!--end wrapper-->
+      {% include corsi.html %}
+      <div class="scheda-corso" style="display:hidden"></div>
+      <div class="scheda-corso" style="display:hidden"></div>
 
-  {% include facebook.html %}
+    </div>
+  </section>
+
+  <div id="gmx-fb-page">
+    <div class="wrapper">
+      <h4>Gymnastx su facebook</h2>
+      <div class="fb-page" data-href="https://www.facebook.com/gymnastx.it?fref=nf" data-width="500" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/gymnastx.it?fref=nf"><a href="https://www.facebook.com/gymnastx.it?fref=nf">GYMNASTX</a></blockquote></div></div>
+      <p>Seguici su facebook per restare sempre aggiornato</p>
+    </div> <!--end wrapper-->
+  </div> <!--end gmx-fb-page-->
+
   {% include partners.html %}
 
 </div>

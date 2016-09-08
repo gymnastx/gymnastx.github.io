@@ -41,6 +41,8 @@
     </div> <!--end social-->
 
     <p id='cookie'>
+        Le Attività dell'associazione Gymnastx è rivolta esclusivamente ai soci e agli atleti tesserati
+      <br/>
       <a href="{{ '/termini-servizio/' | prepend: site.baseurl }}">
         Informativa privacy
       </a>&nbsp
@@ -57,7 +59,6 @@
 <!--cookie banner-->
 <script type="text/javascript" src="{{ "/assets/cookie-law/it_cookie_law.js" | prepend: site.baseurl }}"></script>
 <!--end cookie banner-->
-<script src="{{ '/assets/swiper/js/swiper.jquery.min.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/assets/parsley/parsley.min.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/assets/parsley/i18n/it.js' | prepend: site.baseurl }}"></script>
 <script type="application/javascript" src="{{ '/assets/fastclick/fastclick.js' | prepend: site.baseurl }}"></script>
@@ -75,26 +76,5 @@ $(document).ready(function() {
       $('body').removeClass('noscroll');
       $('#fullscreen-menu').removeClass('open');
   });
-  var homeSwiper = new Swiper('#home-slider', {
-      autoplay: 3500,
-      autoplayDisableOnInteraction: true,
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
-      loop: true
-    });
-  var corsiSwiper = new Swiper('#corsi-slider', {
-      effect: 'coverflow',
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
-      coverflow: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows : false
-      }
-    });
 });
 </script>

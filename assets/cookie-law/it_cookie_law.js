@@ -35,7 +35,7 @@ var infoLinkText = "Leggi informativa"
 var infoText = "Questo sito utilizza cookie di terze parti: cliccando su '"+acceptButtonText+"', proseguendo nella navigazione, effettuando lo scroll della pagina o altro tipo di interazione col sito, acconsenti all'utilizzo dei cookie. Per maggiori informazioni o per negare il consenso a tutti o ad alcuni cookie, consulta l'informativa."
 
 // Stili CSS degli elementi
-var divEsternoCSS = "background-color: rgba(0, 0, 0, 0.7); font-size: 0.8em; font-family: verdana,arial,tahoma,sans-serif; padding: 1em 0px; margin: 0px; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 999999;";
+var divEsternoCSS = "background-color: rgba(0, 0, 0, 0.7); font-size: 0.5rem; font-family: verdana,arial,tahoma,sans-serif; padding: 1em 0px; margin: 0px; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 999999;";
 var divInternoCSS = "margin: 0px auto; width: 80%; position: relative;";
 var divInfoTextCSS = "color: rgb(255, 255, 255); display: block; float:left; width: 70%; line-height: 1.5em;";
 var divButtonsCSS = "color: rgb(255, 255, 255); display:block; float:right; block; width: 25%; text-align: right; line-height: 1.2em;";
