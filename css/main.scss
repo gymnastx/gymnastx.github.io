@@ -97,7 +97,8 @@ div#home-slider {
             padding-left: 2%;
             padding-right: 2%;
             span {
-              @extend .highlighted-inverse;
+              @extend .highlighted;
+
               padding: 0.2rem;
               text-transform: uppercase;
               @media (min-width: $large) {
@@ -123,7 +124,8 @@ div#home-slider {
             padding-left: 2%;
             padding-right: 2%;
             span {
-              @extend .highlighted;
+              @extend .highlighted-inverse;
+
               padding: 0.2rem;
               text-transform: uppercase;
               @media (min-width: $large) {
