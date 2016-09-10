@@ -20,7 +20,7 @@ header#menu {
     nav {
         float: right;
         display: none;
-        @media (min-width: $medium) {
+        @media (min-width: $large) {
             display: block;
         }
         a, a:hover, a:visited {
@@ -53,7 +53,7 @@ header#menu {
     }
     a#menu-button {
         color: $menu-color;
-        @media (min-width: $medium) {
+        @media (min-width: $large) {
             display: none;
         }
     }
