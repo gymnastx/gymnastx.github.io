@@ -130,6 +130,7 @@ div#home-slider {
               text-transform: uppercase;
               @media (min-width: $large) {
                 padding: 0;
+                color: $color-1;
                 background-color: transparent;
               }
             }
