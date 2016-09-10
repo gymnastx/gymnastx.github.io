@@ -1,34 +1,41 @@
 - nome: Ginnastica Ritmica
   img: /assets/img/ritmica_400.jpg
   link: /corsi/ritmica/
+  anni: 3-16
   descrizione: Corsi di avviamento alla pratica della ginnastica ritmica per bambine dai 6 ai 16 anni. La ginnastica ritmica consiste in esercizi a corpo libero o con maneggio di piccoli attrezzi quali la palla, la fune, il cerchio, il nastro e le clevette eseguiti con accompagnamento musicale.
 
 - nome: Ginnastica Artistica Femminile
   img: /assets/img/artistica_femminile_small.jpg
   link: /corsi/artistica-femminile/
+  anni: 5-13
   descrizione: Corsi di avviamento alla ginnastica artistica dedicati a bambine dai 5 ai 13 anni. Questa attività stimola lo sviluppo della forza negli arti superiori e inferiori non tralasciando al contempo lo sviluppo dell'elasticità. Inoltre è utilissimo per lo sviluppo per la stabilità dell'addome e il rinforzo di una postura corretta.
 
 - nome: Ginnastica Artistica Maschile
   img: /assets/img/artistica_maschile_small.jpg
   link: /corsi/artistica-maschile/
+  anni: 5-9
   descrizione: Corsi di avviamento alla ginnastica artistica dedicati ai bambini dai 5 ai 9 anni. Durante il corso si imparano elementi a corpo libero come capovolte, verticali, ruote fino alle loro evoluzioni nei salti avanti, ribaltate e rondate.
 
 - nome: Ginnastica Acrobatica
   img: /assets/img/acrobatica_small.jpg
   link: /corsi/acrobatica/
+  anni: 5-18,18+
   descrizione: Un corso dedicato a ragazzi (dalle superiori in poi) ed adulti, ex ginnasti e non, che vogliono continuare o cimentarsi per la prima volta nell'esperienza unica della ginnastica acrobatica. Dagli elementi più semplici come la capovolta avanti, la verticale ed la ruota fino ai più complessi come il salto giro avanti, la ribaltata e la rondata.
 
 - nome: Baby Gym
   img: /assets/img/baby_small.jpg
   link: /corsi/baby/
+  anni: 3-5
   descrizione: Corso di avviamento all'attività ginnica aperto a maschi e femmine dai 3 ai 5 anni per l'apprendimento delle basi della ginnastica e lo sviluppo delle capacità motorie. Un percorso didattico a misura di bambino nel rispetto delle sue esigenze e attitudini.
 
 - nome: Tessuti e Cerchio Aereo
   img: /assets/img/tessuti_small.jpg
   link: /corsi/tessuti-cerchio-aereo/
+  anni: 6-18,18+
   descrizione: Questo corso è dedicato a chiunque (bambini ed adulti) voglia cimentarsi in questa meravigliosa disciplina artistica che richiede al contempo grandi doti di forza, elasticità ed eleganza.
 
 - nome: Ginnastica Adulti
   img: /assets/img/adulti_small.jpg
   link: /corsi/ginnastica-adulti/
+  anni: 18+
   descrizione: Questo corso è dedicato ad adulti che vogliono tenersi in forma attraverso attività a corpo libero e con l'ausilio di piccoli attrezzi. Si persegue lo sviluppo di una maggiore armonia del corpo ed un aumento generale del benessere della persona in modo naturale e fisiologico.

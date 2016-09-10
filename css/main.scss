@@ -7,7 +7,7 @@
 /*
  * Media
  */
-$medium: 43.75em;
+$medium: 45em;
 /*$large : 55rem;*/
 $large : 50rem;
 
@@ -280,13 +280,19 @@ div#corsi-grid {
                 }
             }
             p {
-                margin: 0.6rem 0 0 0;
+                margin: 6px 0 0 0;
                 padding-left: 10px;
                 width: 100%;
                 font-size: 0.8rem;
                 text-transform: uppercase;
                 span {
                   padding: 0.2rem;
+                }
+            }
+            p.scheda-corso-info-button {
+                margin: 8px 0 0 0;
+                font-size: 0.6rem;
+                span {
                   border: 2px solid $color-2;
                   color: $color-2;
                   transition: background-color .3s,
@@ -295,7 +301,7 @@ div#corsi-grid {
             }
 
         }
-        &:hover div.scheda-corso-text p span {
+        &:hover div.scheda-corso-text p.scheda-corso-info-button span {
             background-color: $color-2;
             color: $color-1;
         }
@@ -337,6 +343,7 @@ div.corsi {
                     float: left;
                 }
                 div.scheda-corso-text {
+                    padding-left: 0.6rem;
                     text-align: left;
                 }
             }
@@ -345,6 +352,7 @@ div.corsi {
                     float: right;
                 }
                 div.scheda-corso-text {
+                    padding-right: 0.6rem;
                     text-align: right;
                 }
             }
@@ -394,13 +402,19 @@ div.corsi {
                 }
             }
             p {
-                margin: 0.6rem 0 0 0;
+                margin: 6px 0 0 0;
                 padding-left: 10px;
                 width: 100%;
                 font-size: 0.8rem;
                 text-transform: uppercase;
                 span {
                   padding: 0.2rem;
+                }
+            }
+            p.scheda-corso-info-button {
+                margin: 6px 0 0 0;
+                font-size: 0.6rem;
+                span {
                   border: 2px solid $color-2;
                   color: $color-2;
                   transition: background-color .3s,
@@ -409,21 +423,24 @@ div.corsi {
             }
             @media (min-width: $medium) {
                 position: relative;
-                padding: 1.1rem;
+                bottom: 0;
                 width: 60%;
+                min-height: 300px;
                 h3 {
                     margin-top: 0;
                     font-size: 1.5rem;
                     span {
+                      padding: 0;
                       color: $color-1;
-                      background-color: $color-2;
+                      background-color: transparent;
                     }
                 }
                 p.descrizione-corso {
                     display: block;
                 }
                 p.scheda-corso-info-button {
-                    font-size: 0.8rem;
+                    margin-top: 0.6rem;
+                    font-size: 0.7rem;
                     span {
                       color: $color-1;
                       background-color: transparent;
