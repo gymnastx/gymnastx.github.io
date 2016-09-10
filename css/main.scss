@@ -85,7 +85,7 @@ div#home-slider {
     height: 60vh;
     text-align: left;
     position: relative;
-    @media (min-width: $medium) {
+    @media (min-width: $large) {
         margin-top: -$menu-height;
         height: 100vh;
     }
@@ -99,7 +99,7 @@ div#home-slider {
               @extend .highlighted-inverse;
               padding: 0.2rem;
               text-transform: uppercase;
-              @media (min-width: $medium) {
+              @media (min-width: $large) {
                 padding: 0;
                 color: $color-1;
                 background-color: transparent;
@@ -124,7 +124,7 @@ div#home-slider {
               @extend .highlighted;
               padding: 0.2rem;
               text-transform: uppercase;
-              @media (min-width: $medium) {
+              @media (min-width: $large) {
                 padding: 0;
                 background-color: transparent;
               }
