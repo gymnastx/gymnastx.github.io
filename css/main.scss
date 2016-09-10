@@ -95,6 +95,7 @@ div#home-slider {
         bottom: 5%;
         h1 {
             padding-left: 5%;
+            padding-right: 5%;
             span {
               @extend .highlighted-inverse;
               padding: 0.2rem;
@@ -120,6 +121,7 @@ div#home-slider {
         }
         p {
             padding-left: 5%;
+            padding-right: 5%;
             span {
               @extend .highlighted;
               padding: 0.2rem;
