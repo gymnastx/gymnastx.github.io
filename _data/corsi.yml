@@ -1,7 +1,7 @@
 - nome: Ginnastica Ritmica
   img: /assets/img/ritmica_400.jpg
   link: /corsi/ritmica/
-  anni: 3-16
+  anni: 5-16
   descrizione: Corsi di avviamento alla pratica della ginnastica ritmica per bambine dai 6 ai 16 anni. La ginnastica ritmica consiste in esercizi a corpo libero o con maneggio di piccoli attrezzi quali la palla, la fune, il cerchio, il nastro e le clevette eseguiti con accompagnamento musicale.
 
 - nome: Ginnastica Artistica Femminile
@@ -25,7 +25,7 @@
 - nome: Baby Gym
   img: /assets/img/baby_small.jpg
   link: /corsi/baby/
-  anni: 3-5
+  anni: 3-4
   descrizione: Corso di avviamento all'attività ginnica aperto a maschi e femmine dai 3 ai 5 anni per l'apprendimento delle basi della ginnastica e lo sviluppo delle capacità motorie. Un percorso didattico a misura di bambino nel rispetto delle sue esigenze e attitudini.
 
 - nome: Tessuti e Cerchio Aereo
