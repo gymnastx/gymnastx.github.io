@@ -77,4 +77,30 @@ $(document).ready(function() {
       $('#fullscreen-menu').removeClass('open');
   });
 });
+
+window.Parsley.on('form:success', function() {
+    //get the name field value
+    var name = $('#name').val();
+    //get the name field value
+    var email = $('#email').val();
+    //get the comments
+    var message = $('#message').val();
+    //alert('name: ' + name + ' email: ' + email + ' message: ' + message);
+    $.ajax({
+            url:'https://formspree.io/info@gymnastx.it',
+            method:'POST',
+            data:{
+                name:name,
+                _replyto:email,
+                message:message,
+                _subject:'Richiesta informazioni',
+            },
+            dataType:"json",
+            success:function() {
+                //alert('inviato');
+                window.location = "{{ "/contatti/grazie/" | prepend: site.baseurl }}";
+            }   
+
+        });
+});
 </script>
