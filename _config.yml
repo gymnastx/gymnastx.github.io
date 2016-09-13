@@ -18,3 +18,5 @@ page_gen:
     name: dirname
     dir: corsi
     dirs: True
+
+host: 0.0.0.0

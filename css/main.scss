@@ -81,6 +81,11 @@ span.underline {
 }
 
 /*
+ * Prevent phone links on iOS
+ */
+a[href^=tel] { color: inherit; text-decoration: none; }
+
+/*
  * Fullscreen menu
  */
 div#fullscreen-menu > nav {
@@ -395,6 +400,9 @@ div#pagina-corsi div#corsi-grid {
                         margin-bottom: 1em;
                     }
                     p.scheda-corso-info-button {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 0;
                         margin-top: 0.6rem;
                         font-size: 0.7rem;
                         span {
