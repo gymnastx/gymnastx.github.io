@@ -92,6 +92,28 @@
         - orario: Mercoledì 14:30-16:30
         - orario: Venerdì 14:30-16:30
 
+    - nome: Ginnastica Artistica Femminile 1 - Rivalta
+      anni: 2011 - 2010 - 2009
+      map: https://www.google.it/maps/place/Palestra+Rivalta+Ex+Ciechi/@44.664641,10.5887196,17.43z/data=!4m13!1m7!3m6!1s0x47801ca8c119bac3:0xdf1c5d4466fe0b89!2sVia+Blaise+Pascal,+81,+42123+Reggio+Emilia+RE!3b1!8m2!3d44.6652594!4d10.5908396!3m4!1s0x0:0x1238b17484e05a59!8m2!3d44.6634598!4d10.5898601
+      palestra: Palestra Ex Ciechi
+      indirizzo-palestra: Via B. Pascal 81, Rivalta.
+      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.
+      scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_ciechi.pdf
+      giorni:
+        - orario: Lunedì 17:00-18:00
+        - orario: Giovedì 17:00-18:00
+
+    - nome: Ginnastica Artistica Femminile 2 - Rivalta
+      anni: 2008 - 2007 - 2006
+      map: https://www.google.it/maps/place/Palestra+Rivalta+Ex+Ciechi/@44.664641,10.5887196,17.43z/data=!4m13!1m7!3m6!1s0x47801ca8c119bac3:0xdf1c5d4466fe0b89!2sVia+Blaise+Pascal,+81,+42123+Reggio+Emilia+RE!3b1!8m2!3d44.6652594!4d10.5908396!3m4!1s0x0:0x1238b17484e05a59!8m2!3d44.6634598!4d10.5898601
+      palestra: Palestra Ex Ciechi
+      indirizzo-palestra: Via B. Pascal 81, Rivalta.
+      descrizione: Questo gruppo è dedicato alle allieve del secondo ciclo elementari e medie che hanno già acquisito i fondamentali della ginnastica artistica.
+      scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_ciechi.pdf
+      giorni:
+        - orario: Lunedì 18:00-19:30
+        - orario: Giovedì 18:00-19:30
+
 - nome: Ginnastica Artistica Maschile
   img: /assets/img/artistica_maschile_small.jpg
   img-large: /assets/img/artistica_maschile_large.jpg
@@ -156,7 +178,7 @@
       palestra: Palestra Cervi
       indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
       descrizione: 
-      scheda-contributi: /assets/docs/orari_contributi_baby.pdf
+      scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
       giorni:
         - orario: Lunedì 16:30-17:15
 
@@ -166,7 +188,7 @@
       palestra: Palestra Cervi
       indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
       descrizione: 
-      scheda-contributi: /assets/docs/orari_contributi_baby.pdf
+      scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
       giorni:
         - orario: Sabato 10:30-11:15
 
@@ -176,7 +198,7 @@
       palestra: Palestra Cervi
       indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
       descrizione: 
-      scheda-contributi: /assets/docs/orari_contributi_baby.pdf
+      scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
       giorni:
         - orario: Sabato 11:15-12:00
 
@@ -230,7 +252,7 @@
       descrizione: Il corso è aperto a tutti le bambine e ragazze che abbiano desiderio di cimentarsi senza limiti di fisicità e/o competenze. Si tiene conto dei diversi livelli degli allievi e si personalizza la didattica e il tipo di allenamento per ognuno dei partecipanti.
       scheda-contributi: /assets/docs/orari_contributi_tessuti_junior.pdf
       giorni:
-        - orario: Mercoledì 21:30-22:30
+        - orario: Lunedì 18:30-19:30
 
     - nome: Gruppo medie - superiori
       anni: 2005-1998
@@ -240,7 +262,7 @@
       descrizione: Il corso è aperto a tutti le bambine e ragazze che abbiano desiderio di cimentarsi senza limiti di fisicità e/o competenze. Si tiene conto dei diversi livelli degli allievi e si personalizza la didattica e il tipo di allenamento per ognuno dei partecipanti.
       scheda-contributi: /assets/docs/orari_contributi_tessuti_junior.pdf
       giorni:
-        - orario: Mercoledì 21:30-22:30
+        - orario: Mercoledì 18:30-19:30
 
 
 - nome: Ginnastica Adulti
