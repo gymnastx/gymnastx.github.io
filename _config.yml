@@ -10,3 +10,11 @@ url: "http://www.gymnastx.it" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+# Data pages generator
+page_gen:
+  - data: corsi
+    template: corso
+    name: dirname
+    dir: corsi
+    dirs: True

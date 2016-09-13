@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="corso">
+
+  <div class="cover-foto" style="background-image:url({{ page.img-large }})">
+   <div>
+     <h1><span>{{ page.nome }}</span></h1>
+     <p class="anni-corso">
+       <span>
+         {{ page.anni }} anni
+       </span>
+     </p>
+   </div>
+  </div> <!--end home-slider-->
+
+  <div class="wrapper">
+    <section id="descrizione-corso">
+      <p>
+        {{ page.descrizione }}
+      </p>
+      <p>
+        {{ page.descrizione-lunga }}
+      </p>
+
+      <!--<h2>Corsi</h2>-->
+
+      {% for gruppo in page.gruppi %}
+          <div class="scheda-gruppo">
+            <h3 class="nome-gruppo"> {{ gruppo.nome }}</h3>
+            <p class="anni-gruppo"><span>Anni di nascita: {{ gruppo.anni }}</span></p>
+            <a class="luogo-gruppo" href="{{ gruppo.map }}" target="_blank">
+              <div class="logo-mappa">
+                <img src="/assets/img/map.png" alt="">
+              </div>
+              <div class="palestra">
+                <p class="nome-palestra">{{ gruppo.palestra }}</p>
+                <p class="indirizzo-palestra">{{ gruppo.indirizzo-palestra }}</p>
+              </div>
+            </a>
+            <ul class="orari-gruppo">
+              {% for giorno in gruppo.giorni %}
+                <li>{{ giorno.orario }}</li>
+              {% endfor %}
+            </ul>
+            <p class="descrizione-gruppo">{{ gruppo.descrizione }}</p>
+            <div class="azioni">
+              <a class="gruppo-button" href="{{ gruppo.scheda-contributi }}">Contributi</a>
+              <a class="gruppo-button" href="/per-iscriversi/">Per iscriversi</a>
+            </div>
+          </div>
+      {% endfor %}
+
+
+      <section class="alert">
+        <p>
+        Attenzione! Tutti i nostri corsi sono a numero chiuso, vi raccomandiamo di prenotarvi per tempo!
+        <br />
+        Per info sulla disponibilità telefonare al {% include telephone.html %}
+        </p>
+      </section> <!--end alert-->
+
+    </section> <!--end descrizione corso-->
+  </div> <!--end wrapper-->
+
+</div>
