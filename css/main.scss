@@ -2,7 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Bitter:400|Raleway);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:300';
+
 
 /*
  * Media
@@ -14,12 +15,12 @@ $large : 50rem;
 /*
  * Typography
  */
-$base-font-family:    "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
+$base-font-family:    "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $base-font-size:      125%;
 $base-font-weight:    300;
 /*$heading-font-family: "Bitter", "Helvetica Neue", "Helvetica", sans-serif;*/
 $heading-font-family: "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
-$heading-font-weight: 400;
+$heading-font-weight: 300;
 
 /*
  * Layout
@@ -68,11 +69,24 @@ span.underline {
 .highlighted {
   color: $color-1;
   background-color: $color-2;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .highlighted-inverse {
   color: $color-2;
   background-color: $color-1;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/*
+ * Fullscreen menu
+ */
+div#fullscreen-menu > nav {
+    @extend .full-background;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ), url("/assets/img/gmx.svg");
+    background-size:contain;
 }
 
 /*
@@ -96,26 +110,34 @@ div#home-slider {
         h1 {
             padding-left: 2%;
             padding-right: 2%;
+            text-transform: uppercase;
             span {
-              @extend .highlighted;
+              padding: 0;
+              color: $color-1;
+              background-color: transparent;
 
-              padding: 0.2rem;
-              text-transform: uppercase;
-              @media (min-width: $large) {
-                padding: 0;
-                color: $color-1;
-                background-color: transparent;
-              }
-            }
-            font-size: 2em;
-            line-height: 1.25em;
+              /*@extend .highlighted;*/
 
-            @media (min-width: $medium) {
-                font-size: 2.5em;
-                line-height: 1.125em;
+              /*padding: 0.2rem;*/
+              /*text-transform: uppercase;*/
+              /*@media (min-width: $large) {*/
+                /*padding: 0;*/
+                /*color: $color-1;*/
+                /*background-color: transparent;*/
+              /*}*/
             }
+            /*font-size: 2em;*/
+            /*line-height: 1.25em;*/
+
+            /*@media (min-width: $medium) {*/
+                /*font-size: 2.5em;*/
+                /*line-height: 1.125em;*/
+            /*}*/
+
+            display: none;
 
             @media (min-width: $large) {
+                display: block;
                 font-size: 3em;
                 line-height: 1.05em;
             }
@@ -123,19 +145,23 @@ div#home-slider {
         p {
             padding-left: 2%;
             padding-right: 2%;
-            span {
-              @extend .highlighted-inverse;
-
-              padding: 0.2rem;
-              text-transform: uppercase;
-              @media (min-width: $large) {
-                padding: 0;
-                color: $color-1;
-                background-color: transparent;
-              }
-            }
             font-family: $heading-font-family;
             text-transform: uppercase;
+            span {
+              padding: 0;
+              color: $color-1;
+              background-color: transparent;
+
+              /*@extend .highlighted-inverse;*/
+
+              /*padding: 0.2rem;*/
+              /*text-transform: uppercase;*/
+              /*@media (min-width: $large) {*/
+                /*padding: 0;*/
+                /*color: $color-1;*/
+                /*background-color: transparent;*/
+              /*}*/
+            }
         }
     }
 }
@@ -215,43 +241,27 @@ a.button {
         background-color: $color-1;
     }
 }
-
 /*
  * Corsi grid
  */
-div#corsi-grid {
+.scheda-corso {
     width: 100%;
-    text-align: center;
-    margin-bottom: 0.5rem;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-flex-flow: row wrap;
-  justify-content: flex-start;
-    .scheda-corso {
-        width: 80%;
-        padding: 0;
-        border: 0;
-        margin-top: 1%;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: auto;
-        @media (min-width: $medium) {
-            width: 40%;
-            margin-right: 1em;
-            margin-bottom: 1em;
-        }
-        @media (min-width: $large) {
-            width: 30%;
-            max-width: 600px;
-            margin-right: 1%;
-            margin-bottom: 1%;
-        }
+    padding: 0;
+    border: 0;
+    margin-top: 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    @media (min-width: $medium) {
+        width: 40%;
+        margin: 0.6rem;
+    }
+    @media (min-width: $large) {
+        width: 30%;
+        max-width: 600px;
     }
     a {
+        text-decoration: none;
         display: block;
         position: relative;
         width: 100%;
@@ -273,9 +283,10 @@ div#corsi-grid {
             text-align: left;
             h3 {
                 margin: 0;
-                padding-left: 10px;
+                padding: 0 10px 0 10px;
                 width: 100%;
-                font-size: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
                 text-transform: uppercase;
                 span {
                   @extend .highlighted;
@@ -286,9 +297,10 @@ div#corsi-grid {
             }
             p {
                 margin: 6px 0 0 0;
-                padding-left: 10px;
+                padding: 0 10px 0 10px;
                 width: 100%;
-                font-size: 0.8rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
                 text-transform: uppercase;
                 span {
                   padding: 0.2rem;
@@ -313,165 +325,245 @@ div#corsi-grid {
         p.descrizione-corso {
             display: none;
         }
-
     }
 }
 
 /*
- * Facebook page
+ * Corsi grid
  */
-div#gmx-fb-page {
-    @extend .full-background;
+div#corsi-grid {
+    width: 100%;
     text-align: center;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) ), url("/assets/img/palestra_cervi_large.jpg");
-    padding-top: 0.3rem;
-    padding-bottom: 0.5rem;
-    div.fb-page {
-        display: inline-block;
-        width: 100%;
-    }
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
 }
+
 
 
 /*
  * Pagina Corsi
  */
-div.corsi {
-    .scheda-corso {
-        width: 100%;
-        padding: 0;
-        border: 0;
-        margin-bottom: 3em;
-        @media (min-width: $medium) {
-            &:nth-child(odd) {
-                a>div {
-                    float: left;
-                }
-                div.scheda-corso-text {
-                    padding-left: 0.6rem;
-                    text-align: left;
-                }
-            }
-            &:nth-child(even) {
-                a>div {
-                    float: right;
-                }
-                div.scheda-corso-text {
-                    padding-right: 0.6rem;
-                    text-align: right;
-                }
-            }
-            &:after {
-                content: "";
-                display: block;
-                visibility: hidden;
-                clear: both;
-            }
-        }
-    }
-    a {
+div#pagina-corsi div#corsi-grid {
+    @media (min-width: $large) {
         display: block;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-
-        div.scheda-corso-img {
-            @extend .full-background;
+        .scheda-corso {
+            position: relative;
             width: 100%;
-            height: 200px;
-            @media (min-width: $medium) {
-                width: 40%;
-                min-height: 300px;
-            }
-        }
-
-        div.scheda-corso-text {
-            position: absolute;
-            left: 0;
-            bottom: 1rem;
-            margin: 0;
-            width: 100%;
-            text-align: left;
-            h3 {
-                margin: 0;
-                padding-left: 10px;
-                width: 100%;
-                font-size: 1rem;
-                text-transform: uppercase;
-                span {
-                  @extend .highlighted;
-                  padding: 0.2rem;
-                  transition: background-color .3s,
-                              color .3s;
-                }
-            }
-            p {
-                margin: 6px 0 0 0;
-                padding-left: 10px;
-                width: 100%;
-                font-size: 0.8rem;
-                text-transform: uppercase;
-                span {
-                  padding: 0.2rem;
-                }
-            }
-            p.scheda-corso-info-button {
-                margin: 6px 0 0 0;
-                font-size: 0.6rem;
-                span {
-                  border: 2px solid $color-2;
-                  color: $color-2;
-                  transition: background-color .3s,
-                              color .3s;
-                }
-            }
-            @media (min-width: $medium) {
+            max-width: none;
+            margin: 0 0 1.3rem 0;
+            background: #f7f7f7;
+            a, a:hover, a:visited {
+                color: $color-1;
                 position: relative;
-                bottom: 0;
-                width: 60%;
-                min-height: 300px;
-                h3 {
-                    margin-top: 0;
-                    font-size: 1.5rem;
-                    span {
-                      padding: 0;
-                      color: $color-1;
-                      background-color: transparent;
-                    }
+                width: 100%;
+                display: flex;
+                >div {
+                    flex-grow: 1;
                 }
-                p.descrizione-corso {
+
+                div.scheda-corso-img {
                     display: block;
+                    max-width: 35%;
+                    height: 100%;
+                    min-height: 280px;
                 }
-                p.scheda-corso-info-button {
-                    margin-top: 0.6rem;
-                    font-size: 0.7rem;
-                    span {
-                      color: $color-1;
-                      background-color: transparent;
-                      border: solid 2px $color-1;
+                div.scheda-corso-text {
+                    display: block;
+                    position:relative;
+                    padding: 10px 0 0 0;
+                    margin: 0;
+                    bottom: 0;
+                    width: 100%;
+                    h3 span {
+    font-size: 1.375em;
+    line-height: 1.13636364em;
+                        padding: 0;
+                        background: transparent;
+                    }
+                    p.descrizione-corso {
+                        font-size: 0.8rem;
+                        text-transform: none;
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 1em;
+                    }
+                    p.scheda-corso-info-button {
+                        margin-top: 0.6rem;
+                        font-size: 0.7rem;
+                        span {
+                          color: $color-1;
+                          background-color: transparent;
+                          border: solid 2px $color-1;
+                          transition: background-color .2s,
+                                      color .2s;
+                        }
                     }
                 }
             }
 
-        }
-        &:hover div.scheda-corso-text p.scheda-corso-info-button span {
-            background-color: $color-2;
-            color: $color-1;
-            @media (min-width: $medium) {
-              background-color: $color-1;
-              color: $color-2;
+            &:nth-child(even) {
+                a {
+                    text-align: right;
+                    -webkit-flex-direction: row-reverse;
+                    flex-direction: row-reverse;
+                    >div {
+                      text-align: right;
+                    }
+                }
             }
-        }
-        p.descrizione-corso {
-            display: none;
-            @media (min-width: $medium) {
-                display: block;
-            }
-        }
 
+            &:hover {
+                div.scheda-corso-text>p.scheda-corso-info-button>span {
+                    background-color: $color-1 !important;
+                    color: $color-2 !important;
+                }
+            }
+        }
     }
 }
+/*div.corsi {*/
+    /*.scheda-corso {*/
+        /*width: 100%;*/
+        /*padding: 0;*/
+        /*border: 0;*/
+        /*margin-bottom: 3em;*/
+        /*@media (min-width: $medium) {*/
+            /*&:nth-child(odd) {*/
+                /*a>div {*/
+                    /*float: left;*/
+                /*}*/
+                /*div.scheda-corso-text {*/
+                    /*padding-left: 0.6rem;*/
+                    /*text-align: left;*/
+                /*}*/
+            /*}*/
+            /*&:nth-child(even) {*/
+                /*a>div {*/
+                    /*float: right;*/
+                /*}*/
+                /*div.scheda-corso-text {*/
+                    /*padding-right: 0.6rem;*/
+                    /*text-align: right;*/
+                /*}*/
+            /*}*/
+            /*&:after {*/
+                /*content: "";*/
+                /*display: block;*/
+                /*visibility: hidden;*/
+                /*clear: both;*/
+            /*}*/
+        /*}*/
+    /*}*/
+    /*a {*/
+        /*display: block;*/
+        /*position: relative;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*margin: 0 auto;*/
+
+        /*div.scheda-corso-img {*/
+            /*@extend .full-background;*/
+            /*width: 100%;*/
+            /*height: 200px;*/
+            /*@media (min-width: $medium) {*/
+                /*width: 40%;*/
+                /*min-height: 300px;*/
+            /*}*/
+        /*}*/
+
+        /*div.scheda-corso-text {*/
+            /*position: absolute;*/
+            /*left: 0;*/
+            /*bottom: 1rem;*/
+            /*margin: 0;*/
+            /*width: 100%;*/
+            /*text-align: left;*/
+            /*h3 {*/
+                /*margin: 0;*/
+                /*padding-left: 10px;*/
+                /*width: 100%;*/
+                /*font-size: 1rem;*/
+                /*text-transform: uppercase;*/
+                /*span {*/
+                  /*@extend .highlighted;*/
+                  /*padding: 0.2rem;*/
+                  /*transition: background-color .3s,*/
+                              /*color .3s;*/
+                /*}*/
+            /*}*/
+            /*p {*/
+                /*margin: 6px 0 0 0;*/
+                /*padding-left: 10px;*/
+                /*width: 100%;*/
+                /*font-size: 0.8rem;*/
+                /*text-transform: uppercase;*/
+                /*span {*/
+                  /*padding: 0.2rem;*/
+                /*}*/
+            /*}*/
+            /*p.scheda-corso-info-button {*/
+                /*margin: 6px 0 0 0;*/
+                /*font-size: 0.6rem;*/
+                /*span {*/
+                  /*border: 2px solid $color-2;*/
+                  /*color: $color-2;*/
+                  /*transition: background-color .3s,*/
+                              /*color .3s;*/
+                /*}*/
+            /*}*/
+            /*@media (min-width: $medium) {*/
+                /*position: relative;*/
+                /*bottom: 0;*/
+                /*width: 60%;*/
+                /*min-height: 300px;*/
+                /*h3 {*/
+                    /*margin-top: 0;*/
+                    /*font-size: 1.5rem;*/
+                    /*span {*/
+                      /*padding: 0;*/
+                      /*color: $color-1;*/
+                      /*background-color: transparent;*/
+                    /*}*/
+                /*}*/
+                /*p.descrizione-corso {*/
+                    /*display: block;*/
+                /*}*/
+                /*p.scheda-corso-info-button {*/
+                    /*margin-top: 0.6rem;*/
+                    /*font-size: 0.7rem;*/
+                    /*span {*/
+                      /*color: $color-1;*/
+                      /*background-color: transparent;*/
+                      /*border: solid 2px $color-1;*/
+                    /*}*/
+                /*}*/
+            /*}*/
+
+        /*}*/
+        /*&:hover div.scheda-corso-text p.scheda-corso-info-button span {*/
+            /*background-color: $color-2;*/
+            /*color: $color-1;*/
+            /*@media (min-width: $medium) {*/
+              /*background-color: $color-1;*/
+              /*color: $color-2;*/
+            /*}*/
+        /*}*/
+        /*p.descrizione-corso {*/
+            /*display: none;*/
+            /*@media (min-width: $medium) {*/
+                /*display: block;*/
+            /*}*/
+        /*}*/
+
+    /*}*/
+/*}*/
 /*div.corsi {*/
     /*div.scheda-corso {*/
         /*margin-bottom: 2rem;*/
@@ -530,6 +622,21 @@ div.corsi {
 
     /*}*/
 /*}*/
+
+/*
+ * Facebook page
+ */
+div#gmx-fb-page {
+    @extend .full-background;
+    text-align: center;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) ), url("/assets/img/palestra_cervi_large.jpg");
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    div.fb-page {
+        display: inline-block;
+        width: 100%;
+    }
+}
 
 /*
  * Ultime notizie
@@ -791,6 +898,8 @@ textarea {
     font-size: 16px;
     color: $body-text-color;
     width: 15rem;
+    font-family: $base-font-family;
+    margin-bottom: 0.6em;
 }
 input#name,
 input#email {
@@ -815,6 +924,17 @@ textarea#message {
     width: 100%;
     height: 10rem;
 }
+
+#contact-form .info-privacy {
+    margin: 0;
+    margin-bottom: 0.6em;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    input {
+        margin-left: 0;
+    }
+}
+
 input.parsley-success,
 select.parsley-success,
 textarea.parsley-success {
@@ -829,10 +949,11 @@ textarea.parsley-error {
   color: #B94A48;
   background-color: #F2DEDE;
   border: 1px solid #EED3D7;
+  margin-bottom: 0.6em;
 }
 
 .parsley-errors-list {
-  margin: 2px 0 3px;
+  margin: -0.4em 0 0.6em 0;
   padding: 0;
   list-style-type: none;
   font-size: 0.9em;

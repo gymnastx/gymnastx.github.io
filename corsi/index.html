@@ -2,17 +2,21 @@
 layout: default
 ---
 
-<div class="corsi wrapper">
+<div id="pagina-corsi">
+  <div class="wrapper">
+    <h1>I nostri corsi</h1>
+    <p>
+      Proponiamo diverse discipline per tutte le età, controlla il dettaglio del corso che ti interessa per informazioni e orari.
+    </p>
+  </div> <!--end wrapper-->
 
-  <h1>I nostri corsi</h1>
-  <p>
-    Proponiamo diverse discipline per tutte le età, controlla il dettaglio del corso che ti interessa per informazioni e orari.
-  </p>
 
   <section>
+    <div id="corsi-grid" class="wrapper">
 
-    {% include corsi.html %}
+      {% include corsi.html %}
 
+    </div>
   </section>
 
 </div>

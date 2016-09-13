@@ -11,7 +11,10 @@
   <input type="text" name="_gotcha" style="display:none" data-parsley-validate-if-empty>
   <input type="hidden" name="_format" value="plain" style="display:none">
   <input type="hidden" name="_next" value="{{ "/contatti/grazie/" || prepend: site.baseurl }}" />
+  <div class="info-privacy">
+    <input type="checkbox" name="privacy" required=""> 
+    <span>Accetto i <a href="/termini-servizio">termini di servizio e le politiche sulla privacy</a>.</span>
+  </div>
   <button id="submit" type="submit">Invia</button>
 </form>
 
-<p>Cliccando su Invia si dichiara di accettare i <a href="/termini-servizio">termini di servizio e le politiche sulla privacy</a>.</p>

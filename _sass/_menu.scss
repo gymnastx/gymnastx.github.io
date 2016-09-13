@@ -14,8 +14,12 @@ header#menu {
     z-index: 10;
     border-bottom: 3px solid darken($menu-bg-color, 10%);
 
-    a#logo {
+    a#logo, a#logo:hover, a#logo:visited {
         float: left;
+        font-size: 1.3rem;
+        line-height: $menu-height;
+        text-decoration: none;
+        color: $menu-color;
     }
     nav {
         float: right;
@@ -42,12 +46,18 @@ header#menu {
         /* Menu items */
         >ul>li {
             display: block;
-            height: $menu-height;
-            line-height: $menu-height;
             margin-left: 18px;
             /*float: right;*/
             a, a:hover, a:visited {
+                display: inline-block;
                 font-family: $heading-font-family;
+                height: $menu-height;
+                line-height: $menu-height;
+                border-bottom: 0px solid white;
+                transition: border-bottom .1s;
+                &:hover {
+                    border-bottom: 2px solid white;
+                }
             }
         }
     }
@@ -79,9 +89,13 @@ div#fullscreen-menu {
     background: $menu-color;
     color: $menu-bg-color;
     text-align: center;
+ 
+    a, a:hover, a:visited {
+      color: $menu-bg-color;
+    }
 
     a#close-menu-button {
-        color: $menu-bg-color;
+      color: $menu-bg-color;
     }
 
     nav {
@@ -90,7 +104,7 @@ div#fullscreen-menu {
         a, a:hover, a:visited {
             text-transform: uppercase;
             text-decoration: none;
-            color: $menu-bg-color;
+            /*color: $menu-bg-color;*/
         }
         ul {
             list-style: none;
