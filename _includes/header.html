@@ -11,7 +11,7 @@
       <ul>
         <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
         <li><a href="{{ '/chi-siamo/' | prepend: site.baseurl }}">Chi Siamo</a></li>
-        <li class="more"><a href="/corsi">Corsi</a> </li>
+        <li><a href="{{ '/corsi/' | prepend: site.baseurl }}">Corsi</a></li>
         <li><a href="{{ '/per-iscriversi/' | prepend: site.baseurl }}">Per iscriversi</a></li>
         <li><a href="{{ '/contatti/' | prepend: site.baseurl }}">Contatti</a></li>
       </ul>
@@ -39,16 +39,9 @@
     <ul>
       <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
       <li><a href="{{ '/chi-siamo/' | prepend: site.baseurl }}">Chi Siamo</a></li>
-      <li class="more"><a href="/corsi">Corsi</a> </li>
+      <li><a href="{{ '/corsi/' | prepend: site.baseurl }}">Corsi</a></li>
       <li><a href="{{ '/per-iscriversi/' | prepend: site.baseurl }}">Per iscriversi</a></li>
       <li><a href="{{ '/contatti/' | prepend: site.baseurl }}">Contatti</a></li>
-      <!--<li class="more"><a href="/corsi">Corsi</a>-->
-        <!--<ul>-->
-          <!--{% for corso in site.data.corsi %}-->
-            <!--<li><a href="{{ corso.link | prepend: site.baseurl }}">{{ corso.nome }}</a></li>-->
-          <!--{% endfor %}-->
-        <!--</ul>-->
-      <!--</li>-->
     </ul>
   </nav>
 
