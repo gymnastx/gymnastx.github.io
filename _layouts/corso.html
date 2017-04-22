@@ -46,8 +46,12 @@ layout: default
             </ul>
             <p class="descrizione-gruppo">{{ gruppo.descrizione }}</p>
             <div class="azioni">
-              <a class="gruppo-button" href="{{ gruppo.scheda-contributi }}">Contributi</a>
-              <a class="gruppo-button" href="/per-iscriversi/">Per iscriversi</a>
+              {% if gruppo.nome == "Gioca Gym Campus" %}
+                <a class="gruppo-button" href="{{ gruppo.scheda-contributi }}">Scheda iscrizione</a>
+              {% else %}
+                <a class="gruppo-button" href="{{ gruppo.scheda-contributi }}">Contributi</a>
+                <a class="gruppo-button" href="/per-iscriversi/">Per iscriversi</a>
+              {% endif %}
             </div>
           </div>
       {% endfor %}

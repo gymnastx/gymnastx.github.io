@@ -1,3 +1,23 @@
+- nome: Gioca Gym Campus 2017
+  new: True
+  img: /assets/img/giocagym_small.jpg
+  img-large: /assets/img/giocagym_large.jpg
+  dirname: gioca-gym
+  link: /corsi/gioca-gym/
+  anni: 6-13
+  descrizione: <strong>Vivi un'estate all'insegna della ginnastica!!! Partecipa al campo estivo Gymnastx!</strong>
+  descrizione-lunga: Anche quest'anno proponiamo a tutti i nostri atleti tesserati la partecipazione al Gioca Gym Campus, un campo estivo divertente ed innovativo all'insegna della ginnastica!</br> </br> In questo camp i bambini potranno vivere esperienze sportive uniche, perfezionando ed allenando movimenti nuovi grazie all'occhio attento di tecnici sportivi qualificati.</br> </br> I laboratori educativi programmati inoltre, offriranno al bambino occasioni di gioco e di incontro, favorendone il corretto sviluppo psicofisico-relazionale.
+  gruppi:
+    - nome: Gioca Gym Campus
+      anni: 2011-2003
+      map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+      palestra: Palestra Cervi
+      indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: Il camp sarà aperto <strong>dal 12 Giugno al 28 Luglio e dal 4 al 14 Settembre</strong>.</br> <strong>Affrettati! I posti sono limitati.</strong> Clicca per visualizzare la scheda con tutti i dettagli.
+      scheda-contributi: /assets/docs/scheda_gioca_gym_2017.pdf
+      giorni:
+        - orario: Dal Lunedì al Venerdì dalle 8:30 alle 13:00
+
 - nome: Ginnastica Ritmica
   img: /assets/img/ritmica_400.jpg
   img-large: /assets/img/ritmica_1200.jpg
