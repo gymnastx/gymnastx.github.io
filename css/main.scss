@@ -1077,4 +1077,19 @@ div#grazie {
     background-color: #9bf441;
     color: #fff;
   }
+  .ribbon-orange {
+    font: bold 15px sans-serif;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #ff6600;
+    color: #fff;
+  }
 }
