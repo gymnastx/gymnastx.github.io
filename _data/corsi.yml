@@ -1,25 +1,25 @@
-- nome: Campo giochi estivo 2017
-  new: True
-  img: /assets/img/giocagym_small.jpg
-  img-large: /assets/img/giocagym_large.jpg
-  dirname: campo-giochi
-  link: /corsi/campo-giochi/
-  anni: 6-13
-  descrizione: <strong>Vivi un'estate all'insegna della ginnastica!!! Partecipa al campo estivo Gymnastx!</strong>
-  descrizione-lunga: Anche quest'anno proponiamo a tutti i nostri atleti tesserati la partecipazione al Gioca Gym Campus, un campo estivo divertente ed innovativo all'insegna della ginnastica!</br> </br> In questo camp i bambini potranno vivere esperienze sportive uniche, perfezionando ed allenando movimenti nuovi grazie all'occhio attento di tecnici sportivi qualificati.</br> </br> I laboratori educativi programmati inoltre, offriranno al bambino occasioni di gioco e di incontro, favorendone il corretto sviluppo psicofisico-relazionale.
-  gruppi:
-    - nome: Campo giochi estivo
-      anni: 2011-2003
-      map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
-      palestra: Palestra Cervi
-      indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Il camp sarà aperto <strong>dal 12 Giugno al 28 Luglio e dal 4 al 14 Settembre</strong>.</br> <strong>Affrettati! I posti sono limitati.</strong> Clicca per visualizzare la scheda con tutti i dettagli.
-      scheda-contributi: /assets/docs/scheda_gioca_gym_2017.pdf
-      giorni:
-        - orario: Dal Lunedì al Venerdì dalle 8:30 alle 13:00
+# - nome: Campo giochi estivo 2017
+#   new: True
+#   img: /assets/img/giocagym_small.jpg
+#   img-large: /assets/img/giocagym_large.jpg
+#   dirname: campo-giochi
+#   link: /corsi/campo-giochi/
+#   anni: 6-13
+#   descrizione: <strong>Vivi un'estate all'insegna della ginnastica!!! Partecipa al campo estivo Gymnastx!</strong>
+#   descrizione-lunga: Anche quest'anno proponiamo a tutti i nostri atleti tesserati la partecipazione al Gioca Gym Campus, un campo estivo divertente ed innovativo all'insegna della ginnastica!</br> </br> In questo camp i bambini potranno vivere esperienze sportive uniche, perfezionando ed allenando movimenti nuovi grazie all'occhio attento di tecnici sportivi qualificati.</br> </br> I laboratori educativi programmati inoltre, offriranno al bambino occasioni di gioco e di incontro, favorendone il corretto sviluppo psicofisico-relazionale.
+#   gruppi:
+#     - nome: Campo giochi estivo
+#       anni: 2011-2003
+#       map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+#       palestra: Palestra Cervi
+#       indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+#       descrizione: Il camp sarà aperto <strong>dal 12 Giugno al 28 Luglio e dal 4 al 14 Settembre</strong>.</br> <strong>Affrettati! I posti sono limitati.</strong> Clicca per visualizzare la scheda con tutti i dettagli.
+#       scheda-contributi: /assets/docs/scheda_gioca_gym_2017.pdf
+#       giorni:
+#         - orario: Dal Lunedì al Venerdì dalle 8:30 alle 13:00
 
 - nome: Ginnastica Ritmica
-  updated: True
+  updated: False
   img: /assets/img/ritmica_400.jpg
   img-large: /assets/img/ritmica_1200.jpg
   dirname: ritmica
@@ -30,7 +30,7 @@
   gruppi:
     - nome: Ginnastica Ritmica 1
       anni: 2011-2010
-      map: https://www.google.it/maps/@44.7094326,10.621789,17.79z
+      map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
       palestra: Palestra Moro Nuovo
       indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
       descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 18 settembre.
@@ -41,7 +41,7 @@
 
     - nome: Ginnastica Ritmica 2
       anni: 2009 - 2008 - 2007
-      map: https://www.google.it/maps/@44.7094326,10.621789,17.79z
+      map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
       palestra: Palestra Moro Nuovo
       indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
       descrizione: Questo gruppo è dedicato a bambine che hanno già praticato la ginnastica ritmica.</br>Il corso iniza la settimana del 18 settembre.
@@ -52,18 +52,18 @@
 
     - nome: Ginnastica Ritmica 3
       anni: 2007 - 2006 - 2005 - 2004
-      map: https://www.google.it/maps/@44.7094326,10.621789,17.79z
-      palestra: Palestra Moro Nuovo
+      map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
+      palestra: Martedì Palestra Moro Nuovo, Sabato Cervi
       indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
       descrizione: Questo gruppo è dedicato a bambine che hanno già praticato la ginnastica ritmica.</br>Il corso iniza la settimana del 18 settembre.
       scheda-contributi: /assets/docs/orari_contributi_ritmica.pdf
       giorni:
-        - orario: Mercoledì 17:30-19:30
-        - orario: Venerdì 17:30-19:30
+        - orario: Martedì 17:30-19:30
+        - orario: Sabato 15:00-17:00
 
     - nome: Settore agonistico
       anni: dal 2010
-      map: https://www.google.it/maps/@44.7094326,10.621789,17.79z
+      map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
       palestra: Palestra Moro Nuovo
       indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
       descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 18 settembre.
@@ -72,7 +72,7 @@
         - orario: Consultare gli orari presenti nella scheda contributi
 
 - nome: Ginnastica Artistica Femminile
-  updated: True
+  updated: False
   img: /assets/img/artistica_femminile_small.jpg
   img-large: /assets/img/artistica_femminile_large.jpg
   dirname: artistica-femminile
@@ -137,7 +137,7 @@
         - orario: Giovedì 18:00-19:30
 
 - nome: Ginnastica Artistica Maschile
-  updated: True
+  updated: False
   img: /assets/img/artistica_maschile_small.jpg
   img-large: /assets/img/artistica_maschile_large.jpg
   dirname: artistica-maschile
@@ -158,7 +158,7 @@
         - orario: Venerdì 18:00-19:00
 
 - nome: Ginnastica Acrobatica
-  updated: True
+  updated: False
   img: /assets/img/acrobatica_small.jpg
   img-large: /assets/img/acrobatica_large.jpg
   dirname: acrobatica
@@ -189,7 +189,7 @@
         - orario: Giovedì 20:00-21:30
 
 - nome: Baby Gym
-  updated: True
+  updated: False
   img: /assets/img/baby_small.jpg
   img-large: /assets/img/baby_large.jpg
   dirname: baby
@@ -231,7 +231,7 @@
         - orario: Giovedì 16:30-17:15
 
 - nome: Tessuti e Cerchio Aereo
-  updated: True
+  updated: False
   img: /assets/img/tessuti_small.jpg
   img-large: /assets/img/tessuti_large.jpg
   dirname: tessuti-cerchio-aereo
@@ -295,7 +295,7 @@
 
 
 - nome: Ginnastica Adulti
-  updated: True
+  updated: False
   img: /assets/img/adulti_small.jpg
   img-large: /assets/img/adulti_large.jpg
   dirname: ginnastica-adulti
