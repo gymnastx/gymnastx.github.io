@@ -345,7 +345,7 @@
   dirname: ginnastica-adulti
   link: /corsi/ginnastica-adulti/
   anni: 18+
-  descrizione: Questo corso è dedicato ad adulti che vogliono tenersi in forma attraverso attività a corpo libero e con l'ausilio di piccoli attrezzi. Si persegue lo sviluppo di una maggiore armonia del corpo ed un aumento generale del benessere della persona in modo naturale e fisiologico.
+  descrizione: Questi corsi sono dedicati ad adulti che vogliono tenersi in forma attraverso attività a corpo libero e con l'ausilio di piccoli attrezzi. Si persegue lo sviluppo di una maggiore armonia del corpo ed un aumento generale del benessere della persona in modo naturale e fisiologico.
   descrizione-lunga:
   gruppi:
     - nome: Tecniche di isometria e stretching finalizzate al benessere posturale
@@ -353,7 +353,20 @@
       map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
       palestra: Palestra Cervi
       indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Il corso parte l'17 ottobre e termina il 15 maggio.
+      descrizione: >
+            Questa lezione si svolge con l’ausilio di piccoli e grandi attrezzi, attraverso l’esecuzione di esercizi di tenuta muscolare con forme e tempi definiti per il raggiungimento della tonicità muscolare. Si tratta di un attività intensa ma controllata, per il raggiungimento di un obiettivo mirato: la tonificazione. </br>
+            Il corso parte l'17 ottobre e termina il 15 maggio.
       scheda-contributi: /assets/docs/orari_contributi_ginnastica_adulti.pdf
       giorni:
         - orario: Mercoledì 10:30-12:00
+    - nome: Metodo Feldenkrais
+      anni: <1999
+      map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+      palestra: Palestra Cervi
+      indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: >
+           Prende origine dal nome del suo inventore, ingegnere e primo in Europa a far conoscere il Judo. Non è una ginnastica nel senso letterale del termine, prende piuttosto spunto dal concetto di sequenza del movimento, anche se la sequenza è il punto di arrivo: il movimento viene scomposto in tanti piccoli micro movimenti che solo nell’ultima fase ritrovano la loro composizione. E’ proprio questa “scomposizione” che permette all’allievo di imparare ad ascoltarsi e ad organizzare o riorganizzare i movimenti in modo più consapevole e perciò più fluido e sciolto. La migliore qualità del movimento ha un effetto benefico che si diffonde alle sensazioni, ai pensieri, alle relazioni ed in definitiva alla migliore risposta neurologica che parte proprio dal corpo.</br>
+           Il corso parte l'19 ottobre e termina il 17 maggio.
+      scheda-contributi: /assets/docs/orari_contributi_ginnastica_adulti.pdf
+      giorni:
+        - orario: Venerdì 10:30-12:00
