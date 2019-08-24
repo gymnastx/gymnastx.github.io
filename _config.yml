@@ -1,8 +1,8 @@
 # Site settings
-title: Gymnastx asd - ginnastica ritmica, artistica, acrobatica, tessuti e cerchio aereo a Reggio Emilia
+title: Gymnastx s.s.d. - ginnastica ritmica, artistica, acrobatica, tessuti e cerchio aereo a Reggio Emilia
 email: info@gymnastx.it
 description: > # this means to ignore newlines until "baseurl:"
-  Gymnastx è una associazione sportiva dilettantistica che promuove
+  Gymnastx è una società sportiva dilettantistica che promuove
   la ginnastica ritmica, artistica, acrobatica, tessuti e cerchio aereo
   a Reggio Emilia.
 baseurl: "" # the subpath of your site, e.g. /blog/

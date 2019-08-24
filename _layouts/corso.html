@@ -30,15 +30,17 @@ layout: default
           <div class="scheda-gruppo">
             <h3 class="nome-gruppo"> {{ gruppo.nome }}</h3>
             <p class="anni-gruppo"><span>Anni di nascita: {{ gruppo.anni }}</span></p>
+          {% for palestra in gruppo.palestre %}
             <a class="luogo-gruppo" href="{{ gruppo.map }}" target="_blank">
               <div class="logo-mappa">
                 <img src="/assets/img/map.png" alt="">
               </div>
               <div class="palestra">
-                <p class="nome-palestra">{{ gruppo.palestra }}</p>
-                <p class="indirizzo-palestra">{{ gruppo.indirizzo-palestra }}</p>
+                <p class="nome-palestra">{{ palestra.palestra }}</p>
+                <p class="indirizzo-palestra">{{ palestra.indirizzo-palestra }}</p>
               </div>
             </a>
+          {% endfor %}
             <ul class="orari-gruppo">
               {% for giorno in gruppo.giorni %}
                 <li>{{ giorno.orario }}</li>
