@@ -90,7 +90,7 @@ a[href^=tel] { color: inherit; text-decoration: none; }
  */
 div#fullscreen-menu > nav {
     @extend .full-background;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ), url("/assets/img/gmx.svg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ), url("/assets/img/gmx2020.svg");
     background-size:contain;
 }
 
