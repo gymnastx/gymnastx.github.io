@@ -108,10 +108,19 @@ div#home-slider {
         margin-top: -$menu-height;
         height: 100vh;
     }
+    .cover-foto {
+        background-image: url(/assets/img/gmx2020.svg);
+        background-size: 14rem;
+        @media (min-width: $large) {
+            top:6rem;
+            background-size: 18rem;
+        }
+    }
     >div {
         width: 100%;
         position: absolute;
         bottom: 5%;
+        text-align: center;
         h1 {
             padding-left: 2%;
             padding-right: 2%;
