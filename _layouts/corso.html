@@ -31,7 +31,7 @@ layout: default
             <h3 class="nome-gruppo"> {{ gruppo.nome }}</h3>
             <p class="anni-gruppo"><span>Anni di nascita: {{ gruppo.anni }}</span></p>
           {% for palestra in gruppo.palestre %}
-            <a class="luogo-gruppo" href="{{ gruppo.map }}" target="_blank">
+            <a class="luogo-gruppo" href="{{ palestra.map }}" target="_blank">
               <div class="logo-mappa">
                 <img src="/assets/img/map.png" alt="">
               </div>
