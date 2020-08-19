@@ -416,3 +416,26 @@
       scheda-contributi: /assets/docs/orari_contributi_ginnastica_adulti.pdf
       giorni:
         - orario: Venerdì 10:30-12:00
+
+- nome: Acroyoga
+  updated: True
+  img: /assets/img/acroyoga_small.jpg
+  img-large: /assets/img/acroyoga_large.jpg
+  dirname: acroyoga
+  link: /corsi/acroyoga/
+  anni: 18+
+  descrizione: "L'acroyoga è una disciplina nata negli stati uniti alla fine degli anni '90: è l'unione del movimento consapevole della ginnastica acrobatica e la fluidità e attenzione al respiro dello yoga."
+  descrizione-lunga: >
+            Nasce una ginnastica di coppia che mette alla prova noi stessi e la nostra capacità di lasciarci andare, guidare.
+            Praticare l'acroyoga aumenta l'autostima, la consapevolezza e tenuta del corpo, ma soprattutto ci permette di esplorare un livello di fiducia nel prossimo del tutto nuovo.
+  gruppi:
+    - nome: Gruppo Acroyoga
+      anni: <2002
+      palestre:
+        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+          palestra: Palestra Cervi
+          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: 
+      scheda-contributi: /assets/docs/orari_contributi_acroyoga.pdf
+      giorni:
+        - orario: Giovedì 21:00-22:30
