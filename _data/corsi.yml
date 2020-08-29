@@ -70,14 +70,11 @@
         - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
           palestra: Palestra Moro Nuovo
           indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
-        - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
-          palestra: Palestra Cervi
-          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
       descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 14 settembre.
       scheda-contributi: /assets/docs/orari_contributi_ritmica_agonistica.pdf
       giorni:
-        - orario: Martedì 17:00-19:30 <strong>Palestra Moro Nuovo</strong>
-        - orario: Giovedì 17:00-19:30 <strong>Palestra Cervi</strong>
+        - orario: Martedì 17:00-19:30
+        - orario: Giovedì 17:00-19:30
 
     - nome: Settore agonistico - Silver 2
       anni: dal 2012
@@ -297,7 +294,7 @@
       descrizione: Il corso iniza la settimana del 14 settembre.
       scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
       giorni:
-        - orario: Giovedì 11:45-12:30
+        - orario: Sabato 11:45-12:30
 
 - nome: Tessuti e Cerchio Aereo
   updated: True
