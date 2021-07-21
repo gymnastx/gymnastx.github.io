@@ -1,5 +1,5 @@
 _site
-_data/GoogleAPIKey.yml
+_data/GoogleKey.yml
 .sass-cache
 *.swp
 .jekyll-cache
