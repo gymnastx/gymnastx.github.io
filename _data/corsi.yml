@@ -13,7 +13,7 @@
 #       map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
 #       palestra: Palestra Cervi
 #       indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-#       descrizione: Il camp sarà aperto <strong>dal 12 Giugno al 28 Luglio e dal 4 al 14 Settembre</strong>.</br> <strong>Affrettati! I posti sono limitati.</strong> Clicca per visualizzare la scheda con tutti i dettagli.
+#       descrizione: Il camp sarà aperto <strong>dal 12 Giugno al 28 Luglio e dal 4 al 13 settembre</strong>.</br> <strong>Affrettati! I posti sono limitati.</strong> Clicca per visualizzare la scheda con tutti i dettagli.
 #       scheda-contributi: /assets/docs/scheda_gioca_gym_2017.pdf
 #       giorni:
 #         - orario: Dal Lunedì al Venerdì dalle 8:30 alle 13:00
@@ -29,78 +29,66 @@
   descrizione-lunga: Attraverso questi esercizi si sviluppano da subito la grazia, la musicalità e l'elasticità muscolare tipici della disciplina.
   gruppi:
     - nome: Ginnastica Ritmica 1
-      anni: 2014-2013
+      anni: 2015-2014
       palestre:
         - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
           palestra: Palestra Moro Nuovo
           indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_ritmica.pdf
       giorni:
         - orario: Martedì 17:00-18:00
         - orario: Giovedì 17:00-18:00
 
     - nome: Ginnastica Ritmica 2
-      anni: 2012 - 2011
+      anni: 2013 - 2011
       palestre:
         - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
           palestra: Palestra Moro Nuovo
           indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a bambine che hanno già praticato la ginnastica ritmica.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato a bambine che hanno già praticato la ginnastica ritmica.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_ritmica.pdf
       giorni:
         - orario: Martedì 18:00-19:00
         - orario: Giovedì 18:00-19:00
 
-    - nome: Ginnastica Ritmica 3
-      anni: 2010 - 2007
+    - nome: Ginnastica Ritmica - Gruppo Avanzato/Silver LAB
+      anni: dal 2013
       palestre:
         - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
           palestra: Palestra Moro Nuovo
           indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a bambine che hanno già praticato la ginnastica ritmica.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_ritmica.pdf
+      descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_ritmica_agonistica.pdf
       giorni:
         - orario: Martedì 18:00-19:30
         - orario: Giovedì 18:00-19:30
 
-    - nome: Settore agonistico - Silver 1
-      anni: dal 2012
-      palestre:
-        - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
-          palestra: Palestra Moro Nuovo
-          indirizzo-palestra: Via XX Settembre, parcheggio ex Foro Boario a Reggio Emilia.
-      descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_ritmica_agonistica.pdf
-      giorni:
-        - orario: Martedì 17:00-19:30
-        - orario: Giovedì 17:00-19:30
-
-    - nome: Settore agonistico - Silver 2
-      anni: dal 2012
+    - nome: Settore agonistico - Silver LC
+      anni: dal 2013
       palestre:
         - map: https://www.google.it/maps/place/Liceo+Scientifico+Statale+Aldo+Moro/@44.7093261,10.6214857,17.92z/data=!4m5!3m4!1s0x0:0x4b37d32eee0a1c61!8m2!3d44.7095529!4d10.6216711
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
 
-      descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_ritmica_agonistica.pdf
       giorni:
         - orario: Lunedì 16:30-19:00
-        - orario: Giovedì 14:30-17:00
+        - orario: Venerdì 14:30-17:00
         - orario: Sabato 17:00-19:30
 
-    - nome: Settore agonistico - Silver 3
-      anni: dal 2008
+    - nome: Settore agonistico - Silver LDE/Gold
+      anni: dal 2009
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: I corsi del settore agonistico sono dedicati a chi ha già acquisito una ottima base di ginnastica ritmica e decide di impegnarsi nella carriera agonistica. <br/> I gruppi sono decisi dai nostri tecnici in base ad età, livello, competenze e motivazione delle allieve.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_ritmica_agonistica.pdf
       giorni:
         - orario: Mercoledì 14:30-17:00
-        - orario: Venerdì   19:00-21:30
+        - orario: Venerdì   18:30-21:00
         - orario: Sabato    14:30-17:00
 
 - nome: Ginnastica Artistica Femminile
@@ -114,64 +102,64 @@
   descrizione-lunga: Questa attività stimola lo sviluppo della forza degli arti superiori e inferiori senza tralasciare lo sviluppo dell'elasticità. Inoltre è utilissima per stabilizzare la postura a livello lombare tramite il rinforzo della muscolatura addominale.
   gruppi:
     - nome: Ginnastica Artistica Femminile 1
-      anni: 2014 - 2013
+      anni: 2015 - 2014
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_cervi.pdf
       giorni:
-        - orario: Mercoledì 18:00-19:00
-        - orario: Venerdì 18:00-19:00
+        - orario: Mercoledì 17:30-18:30
+        - orario: Venerdì 17:30-18:30
 
     - nome: Ginnastica Artistica Femminile 2
-      anni: 2012 - 2011
+      anni: 2013 - 2012
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato alle allieve del secondo ciclo elementari che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato alle allieve del secondo ciclo elementari che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_cervi.pdf
       giorni:
         - orario: Mercoledì 17:00-18:00
         - orario: Venerdì 17:00-18:00
 
     - nome: Ginnastica Artistica Femminile 3
-      anni: 2010 - 2007
+      anni: 2011 - 2008
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato alle allieve che frequentano le scuole medie e superiori e che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato alle allieve che frequentano le scuole medie e superiori e che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_cervi.pdf
       giorni:
-        - orario: Mercoledì 17:00-18:30
-        - orario: Venerdì 17:00-18:30
+        - orario: Mercoledì 18:00-19:00
+        - orario: Venerdì 18:00-19:00
 
     - nome: Ginnastica Artistica Femminile 1 - Rivalta
-      anni: 2015 - 2013
+      anni: 2016 - 2014
       palestre:
-        - map: https://goo.gl/maps/Pe9hWzJLvcDJbdzb8
-          palestra: Palestra Rivalta Nuova
-          indirizzo-palestra: Via Blaise Pascal 73, Rivalta
-      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 14 settembre.
+        - map: https://goo.gl/maps/UaDTxiysRUHc7S4TA
+          palestra: Rivalta ELEMENTARI
+          indirizzo-palestra: Via della Repubblica 19, Rivalta
+      descrizione: Questo gruppo è dedicato a bambine che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_rivalta.pdf
       giorni:
-        - orario: Martedì 17:00-18:00
+        - orario: Lunedì o Martedì 17:00-18:00
         - orario: Giovedì 17:00-18:00
 
     - nome: Ginnastica Artistica Femminile 2 - Rivalta
-      anni: 2012 - 2010
+      anni: 2013 - 2011
       palestre:
-        - map: https://goo.gl/maps/Pe9hWzJLvcDJbdzb8
-          palestra: Palestra Rivalta Nuova
-          indirizzo-palestra: Via Blaise Pascal 73, Rivalta
-      descrizione: Questo gruppo è dedicato alle allieve del secondo ciclo elementari e medie che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 14 settembre.
+        - map: https://goo.gl/maps/UaDTxiysRUHc7S4TA
+          palestra: Rivalta ELEMENTARI
+          indirizzo-palestra: Via della Repubblica 19, Rivalta
+      descrizione: Questo gruppo è dedicato alle allieve del secondo ciclo elementari e medie che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_rivalta.pdf
       giorni:
-        - orario: Martedì 17:00-18:00
-        - orario: Giovedì 17:00-18:00
+        - orario: Lunedì o Martedì 18:00-19:00
+        - orario: Giovedì 18:00-19:00
 
 - nome: Ginnastica Artistica Maschile
   updated: True
@@ -183,16 +171,28 @@
   descrizione: Nella ginnastica artistica si imparano elementi a corpo libero, come capovolte, verticali, ruote, fino alle loro evoluzioni nei salti giro avanti e indietro (mortali), ribaltate e rondate.  Si utilizzano inoltre i grandi attrezzi tipici della disciplina come la trave, il volteggio e il trampolino elastico.
   descrizione-lunga: Questa attività stimola lo sviluppo della forza degli arti superiori e inferiori senza tralasciare lo sviluppo dell'elasticità. Inoltre è utilissima per stabilizzare la postura a livello lombare tramite il rinforzo della muscolatura addominale.
   gruppi:
-    - nome: Ginnastica Artistica Maschile
-      anni: 2014 - 2010
+    - nome: Ginnastica Artistica Maschile 1
+      anni: 2015 - 2014
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato ai bambini che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato ai bambini che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_maschile.pdf
       giorni:
-        - orario: Venerdì 18:30-19:30
+        - orario: Mercoledì 17:30-18:30
+        - orario: Venerdì 17:30-18:30
+    - nome: Ginnastica Artistica Maschile 2
+      anni: 2013 - 2012
+      palestre:
+        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+          palestra: Palestra Cervi
+          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: Questo gruppo è dedicato ai bambini che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_artistica_maschile.pdf
+      giorni:
+        - orario: Mercoledì 17:00-18:00
+        - orario: Venerdì 17:00-18:00
 
 - nome: Ginnastica Acrobatica
   updated: True
@@ -205,36 +205,36 @@
   descrizione-lunga: La fase di volo che si ricerca viene ampliata grazie all’utilizzo di attrezzi facilitanti come il trampolino, l’air track (corsia gonfiata ad aria) e materassoni di varie metrature e densità. L’aspetto artistico non è tralasciato attraverso l’esecuzione di esercizi collettivi a corpo libero con accompagnamento musicale. <br/> <br/> Gli atleti che si cimentano in questa disciplina sviluppano caratteristiche fisiche di potenza e forza esplosiva, oltre a doti psichiche di coraggio e concentrazione che consentono loro di eseguire i salti più difficili in pochi secondi.
   gruppi:
     - nome: ACRO 1
-      anni: 2015 - 2013
+      anni: 2016 - 2014
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a chi ha già acquisito una ottima base di ginnastica artisitica e decide di proseguire approfondendo l'aspetto acrobatico della disciplina. <br/> Il gruppo è deciso dai tecnici della società sportiva in base ad età, livello, competenze e motivazione dei ginnasti.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato a chi ha già acquisito una ottima base di ginnastica artisitica e decide di proseguire approfondendo l'aspetto acrobatico della disciplina. <br/> Il gruppo è deciso dai tecnici della società sportiva in base ad età, livello, competenze e motivazione dei ginnasti.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_acrobatica.pdf
       giorni:
         - orario: Martedì 17:00-18:30
         - orario: Giovedì 17:00-18:30
 
     - nome: ACRO 2
-      anni: 2013 - 2010
+      anni: 2013 - 2011
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a chi ha già acquisito una ottima base di ginnastica artisitica e decide di proseguire approfondendo l'aspetto acrobatico della disciplina. <br/> Il gruppo è deciso dai tecnici della società sportiva in base ad età, livello, competenze e motivazione dei ginnasti.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato a chi ha già acquisito una ottima base di ginnastica artisitica e decide di proseguire approfondendo l'aspetto acrobatico della disciplina. <br/> Il gruppo è deciso dai tecnici della società sportiva in base ad età, livello, competenze e motivazione dei ginnasti.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_acrobatica.pdf
       giorni:
         - orario: Martedì 17:30-19:30
         - orario: Giovedì 17:30-19:30
 
     - nome: ACRO 3
-      anni: 2009 - 2005
+      anni: 2010 - 2006
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a chi ha già acquisito una ottima base di ginnastica artisitica e decide di proseguire approfondendo l'aspetto acrobatico della disciplina. <br/> Il gruppo è deciso dai tecnici della società sportiva in base ad età, livello, competenze e motivazione dei ginnasti.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo gruppo è dedicato a chi ha già acquisito una ottima base di ginnastica artisitica e decide di proseguire approfondendo l'aspetto acrobatico della disciplina. <br/> Il gruppo è deciso dai tecnici della società sportiva in base ad età, livello, competenze e motivazione dei ginnasti.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_acrobatica.pdf
       giorni:
         - orario: Lunedì  14:30-16:30
@@ -242,12 +242,12 @@
         - orario: Giovedì 14:30-16:30
 
     - nome: Adulti
-      anni: <2004
+      anni: <2006
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo corso è aperto a ragazzi ed adulti, principianti o già esperti, che vogliono praticare l'acrobatica.</br>Il corso iniza la settimana del 14 settembre.
+      descrizione: Questo corso è aperto a ragazzi ed adulti, principianti o già esperti, che vogliono praticare l'acrobatica.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_acrobatica_adulti.pdf
       giorni:
         - orario: Martedì 19:30-21:00
@@ -263,38 +263,50 @@
   descrizione: Corso di avviamento all'attività ginnica aperto a maschi e femmine per l'apprendimento delle basi della ginnastica e lo sviluppo delle capacità motorie. <br/> Un percorso didattico a misura di bambino nel rispetto delle sue esigenze e attitudini.
   descrizione-lunga:
   gruppi:
-    - nome: Baby Gym 5 anni
-      anni: 2015
-      palestre:
-        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
-          palestra: Palestra Cervi
-          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
-      giorni:
-        - orario: Sabato 10:00-11:00
-
-    - nome: Baby Gym 4 anni
+    - nome: Baby Gym 5 anni - Bisettimanale
       anni: 2016
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Il corso iniza la settimana del 14 settembre.
+      descrizione: Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
       giorni:
-        - orario: Sabato 11:00-11:45
+        - orario: Martedì 16:30-17:15
+        - orario: Giovedì 16:30-17:15
+  
+    - nome: Baby Gym 5 anni - Monosettimanale
+      anni: 2016
+      palestre:
+        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+          palestra: Palestra Cervi
+          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
+      giorni:
+        - orario: Sabato 10:00-10:45        
 
-    - nome: Baby Gym 3 anni
+    - nome: Baby Gym 4 anni
       anni: 2017
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Il corso iniza la settimana del 14 settembre.
+      descrizione: Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
       giorni:
-        - orario: Sabato 11:45-12:30
+        - orario: Sabato 10:45-11:30
+
+    - nome: Baby Gym 3 anni
+      anni: 2018
+      palestre:
+        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+          palestra: Palestra Cervi
+          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_baby_gym.pdf
+      giorni:
+        - orario: Sabato 11:30-12:15
 
 - nome: Tessuti e Cerchio Aereo
   updated: True
@@ -306,63 +318,73 @@
   descrizione: Questo corso è dedicato a chiunque (bambini ed adulti) voglia cimentarsi in questa meravigliosa disciplina artistica che richiede al contempo grandi doti di forza, elasticità ed eleganza.
   descrizione-lunga: Durante il corso verranno affrontati i movimenti di base come salite, chiavi e figure statiche utilizzando i tessuti, il cerchio e la corda. Una volta acquisiti questi movimenti avremo la sicurezza necessaria per affrontare figure dinamiche e cadute. <br/> Per valorizzare l'espressività di ognuno si darà importanza anche alla creazione artistica e composizione coreografica. <br/> <br/>  L'insegnante ha conseguito i livelli uno e due di <a href="http://www.aerialphysique.com/teachertraining" target="_blank">Aerial Physique Teacher Traning di Jill Franklin</a>, ha seguito il percorso di formazione Kataklò Professional Coach di <a href="http://www.kataklo.com/" target="_blank">Accademia Kataklò</a> e si occuperà di organizzare l'attività rispettando le competenze e le caratteristiche di ognuno. <br/> <br/> Il nostro impianto è composto da 5 attacchi in una struttura alta 7 metri. Ogni attacco è stato omologato per ospitare due persone contemporaneamente, per una capienza totale di 10 persone appese nello stesso momento.  <br/>Attualmente disponiamo di 5 tessuti, 4 cerchi e una corda.
   gruppi:
-    - nome: Tessuti - Gruppo adulti principianti
-      anni: <2002
+    - nome: Tessuti Aerei - Principianti Monosettimanale
+      anni: <2009
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che non hanno mai provato tessuti o che vogliono perfezionare le basi acquisite precedentemente. Il corso è aperto a tutti quelli che abbiano desiderio di cimentarsi senza limiti di età, fisicità e/o competenze.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_tessuti_adulti.pdf
+      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che non hanno mai provato tessuti o che vogliono perfezionare le basi acquisite precedentemente. Il corso è aperto a tutti quelli che abbiano desiderio di cimentarsi senza limiti di età, fisicità e/o competenze.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_tessuti_cerchio.pdf
+      giorni:
+        - orario: Lunedì 18:30-19:30
+
+    - nome: Tessuti Aerei - Intermedi Monosettimanale
+      anni: <2009
+      palestre:
+        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+          palestra: Palestra Cervi
+          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che già conoscono le basi fondamentali dei tessuti e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_tessuti_cerchio.pdf
       giorni:
         - orario: Lunedì 19:00-20:00
-
-    - nome: Tessuti - Gruppo adulti intermedi
-      anni: <2002
+  
+    - nome: Tessuti Aerei - Intermedi Bisettimanale
+      anni: <2009
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che già conoscono le basi fondamentali dei tessuti e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_tessuti_adulti.pdf
+      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che già conoscono le basi fondamentali dei tessuti e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_tessuti_cerchio.pdf
       giorni:
         - orario: Lunedì 19:30-20:30
         - orario: Mercoledì 19:30-20:30
-        - orario: Possibile anche monosettimanale
 
-    - nome: Tessuti - Gruppo adulti avanzati
-      anni: <2002
+    - nome: Tessuti Aerei - Avanzati
+      anni: <2009
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che già conoscono le basi fondamentali dei tessuti e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_tessuti_adulti.pdf
+      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che già conoscono le basi fondamentali dei tessuti e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_tessuti_cerchio.pdf
       giorni:
         - orario: Lunedì 20:00-21:00
         - orario: Mercoledì 20:00-21:00
 
-    - nome: Cerchio aereo adulti
-      anni: <2002
+    - nome: Cerchio aereo - Principianti
+      anni: <2009
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Il corso è aperto a tutti quelli che abbiano desiderio di cimentarsi nella disciplina del cerchio aereo senza limiti di età, fisicità e/o competenze.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_tessuti_adulti.pdf
-      giorni:
-        - orario: Mercoledì 19:00-20:00
-
-    - nome: Tessuti - Gruppo junior
-      anni: 2013-2001
-      palestre:
-        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
-          palestra: Palestra Cervi
-          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
-      descrizione: Questo gruppo è dedicato a bambine e ragazze che già conoscono le basi fondamentali dei tessuti e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 14 settembre.
-      scheda-contributi: /assets/docs/orari_contributi_tessuti_junior.pdf
+      descrizione: Il corso è aperto a tutti quelli che abbiano desiderio di cimentarsi nella disciplina del cerchio aereo senza limiti di età, fisicità e/o competenze.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_tessuti_cerchio.pdf
       giorni:
         - orario: Mercoledì 18:30-19:30
+
+    - nome: Cerchio aereo - Intermedi
+      anni: <2009
+      palestre:
+        - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
+          palestra: Palestra Cervi
+          indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
+      descrizione: Questo gruppo è dedicato a ragazzi/e maggiorenni e adulti che già conoscono le basi fondamentali del cerchio aereo e che vogliono ampliare le loro conoscenze e proseguire con l’acquisizione di nuovi elementi sempre più complessi e affini alla propria fisicità ed espressività.</br>Il corso iniza la settimana del 13 settembre.
+      scheda-contributi: /assets/docs/orari_contributi_tessuti_cerchio.pdf
+      giorni:
+        - orario: Mercoledì 19:00-20:00
 
 
 - nome: Ginnastica Adulti
@@ -376,32 +398,32 @@
   descrizione-lunga:
   gruppi:
     - nome: Tecniche di isometria e stretching finalizzate al benessere posturale
-      anni: <2002
+      anni: <2003
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
       descrizione: >
             Questa lezione si svolge con l’ausilio di piccoli e grandi attrezzi, attraverso l’esecuzione di esercizi di tenuta muscolare con forme e tempi definiti per il raggiungimento della tonicità muscolare. Si tratta di un attività intensa ma controllata, per il raggiungimento di un obiettivo mirato: la tonificazione. </br>
-            Il corso parte il 14 ottobre e termina il 9 maggio.
+            Il corso parte il 4 ottobre e termina l'8 maggio.
       scheda-contributi: /assets/docs/orari_contributi_ginnastica_adulti.pdf
       giorni:
         - orario: Mercoledì 10:30-12:00
     - nome: Metodo Feldenkrais
-      anni: <2002
+      anni: <2003
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
           indirizzo-palestra: Via F.lli Cervi 27, Reggio Emilia.
       descrizione: >
            Prende origine dal nome del suo inventore, ingegnere e primo in Europa a far conoscere il Judo. Non è una ginnastica nel senso letterale del termine, prende piuttosto spunto dal concetto di sequenza del movimento, anche se la sequenza è il punto di arrivo: il movimento viene scomposto in tanti piccoli micro movimenti che solo nell’ultima fase ritrovano la loro composizione. E’ proprio questa “scomposizione” che permette all’allievo di imparare ad ascoltarsi e ad organizzare o riorganizzare i movimenti in modo più consapevole e perciò più fluido e sciolto. La migliore qualità del movimento ha un effetto benefico che si diffonde alle sensazioni, ai pensieri, alle relazioni ed in definitiva alla migliore risposta neurologica che parte proprio dal corpo.</br>
-           Il corso parte l'14 ottobre e termina il 9 maggio.
+           Il corso parte il 4 ottobre e termina l'8 maggio.
       scheda-contributi: /assets/docs/orari_contributi_ginnastica_adulti.pdf
       giorni:
         - orario: Venerdì 10:30-12:00
 
 - nome: Acroyoga
-  new: True
+  updated: True
   img: /assets/img/acroyoga_small.jpg
   img-large: /assets/img/acroyoga_large.jpg
   dirname: acroyoga
@@ -413,7 +435,7 @@
             Praticare l'acroyoga aumenta l'autostima, la consapevolezza e tenuta del corpo, ma soprattutto ci permette di esplorare un livello di fiducia nel prossimo del tutto nuovo.
   gruppi:
     - nome: Gruppo Acroyoga
-      anni: <2002
+      anni: <2003
       palestre:
         - map: https://www.google.com/maps/place/Gymnastx+asd/@44.7061419,10.6110754,15z/data=!4m5!3m4!1s0x0:0x35d6aca0b731336a!8m2!3d44.7061419!4d10.6110754
           palestra: Palestra Cervi
