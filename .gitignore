@@ -1,4 +1,5 @@
 _site
+_data/GoogleAPIKey.yml
 .sass-cache
 *.swp
 .jekyll-cache
