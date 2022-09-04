@@ -142,8 +142,8 @@
       descrizione: Questo gruppo è dedicato alle allieve del secondo ciclo elementari che hanno già acquisito i fondamentali della ginnastica artistica.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_femminile_cervi.pdf
       giorni:
-        - orario: Mercoledì 17:30-18:30
-        - orario: Venerdì 17:30-18:30
+        - orario: Martedì 18:00-19:00
+        - orario: Giovedì 18:00-19:00
 
     - nome: Ginnastica Artistica Femminile 3
       anni: 2014 - 2012
@@ -222,8 +222,8 @@
       descrizione: Questo gruppo è dedicato ai bambini che si avvicinano per la prima volta a questa disciplina.</br>Il corso iniza la settimana del 13 settembre.
       scheda-contributi: /assets/docs/orari_contributi_artistica_maschile.pdf
       giorni:
-        - orario: Mercoledì 17:30-18:30
-        - orario: Venerdì 17:30-18:30
+        - orario: Martedì 18:00-19:00
+        - orario: Giovedì 18:00-19:00
     - nome: Ginnastica Artistica Maschile 3
       anni: 2014 - 2012
       palestre:
