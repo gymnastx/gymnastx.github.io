@@ -4,3 +4,4 @@ _data/GoogleKey.yml
 *.swp
 .jekyll-cache
 .*DS_Store
+_site.zip
